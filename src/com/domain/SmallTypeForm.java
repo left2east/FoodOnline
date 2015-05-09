@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 public class SmallTypeForm
     extends ActionForm {
   private Integer bigId=Integer.valueOf("-1");//商品大类别表的外键
-  private String creaTime="";//创建时间
+  private String createTime="";//创建时间
   private Integer id=Integer.valueOf("-1");//数据库流水号
   private String smallName="";//商品小类别信息
   public Integer getBigId() {
@@ -27,12 +27,12 @@ public class SmallTypeForm
     this.id = id;
   }
 
-  public void setCreaTime(String creaTime) {
-    this.creaTime = creaTime;
+  public void setCreateTime(String createTime) {
+    this.createTime = createTime;
   }
 
-  public String getCreaTime() {
-    return creaTime;
+  public String getCreateTime() {
+    return createTime;
   }
 
   public Integer getId() {

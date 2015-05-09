@@ -107,23 +107,6 @@ public final class FinalConstants {
       "update jd_operattype set operatName=? where id=?"; //以数据库流水号为条件修改表中的信息
 
   //================================================================================ 
-  
-  //对小分类的操作
-  public static final String small_select =
-      "select * from jd_smalltype order by id DESC"; //对全部查询操作
-  public static final String small_insert =
-      "insert into jd_smalltype (bigId, smallName, creaTime) values (?,?,?)"; //添加信息
-  public static final String small_delete =
-      "delete from jd_smalltype where id=?"; //以数据库流水号为条件删除表中的信息
-  public static final String small_selectOne =
-      "select * from jd_smalltype where id=?"; //以数据库流水号为条件查询表中的信息
-  public static final String small_update =
-      "update jd_smalltype set bigId=?,smallName=? where id=?"; //以数据库流水号为条件修改表中的信息
-  public static final String small_selectBigId =
-      "select * from jd_smalltype where bigId=?"; //以外键编号为条件查询表中的信息
-
-  //================================================================================
-  
 
 
   //================================================================================
