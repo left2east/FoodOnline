@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/managerAction.do" location="975,417" dimension="196,84" />
+  <StrutsActivity path="/afficheAction.do" location="763,1011" dimension="196,84" />
+  <StrutsActivity path="/advertAction.do" location="650,50" dimension="190,84" />
+  <StrutsActivity path="/linkAction.do" location="517,1842" dimension="178,84" />
+  <StrutsActivity path="/bigTypeAction.do" location="582,1565" dimension="196,84" />
+  <StrutsActivity path="/hummodetypeAction.do" location="180,2490" dimension="220,84" />
+  <StrutsActivity path="/operattypeAction.do" location="480,3000" dimension="196,84" />
+  <StrutsActivity path="/smallTypeAction.do" location="618,1288" dimension="208,84" />
+  <StrutsActivity path="/goodsAction.do" location="2218,0" dimension="184,84" />
+  <StrutsActivity path="/memberAction.do" location="794,714" dimension="190,84" />
+  <StrutsActivity path="/orderAction.do" location="347,2119" dimension="184,84" />
+  <StrutsActivity path="/background/manager/managerInsert.jsp" location="1502,621" dimension="262,48" />
+  <StrutsActivity path="/background/checkResult.jsp" location="1864,621" dimension="202,48" />
+  <StrutsActivity path="/background/manager/managerUpdate.jsp" location="362,621" dimension="262,48" />
+  <StrutsActivity path="/background/manager/managerSuccess.jsp" location="1134,621" dimension="268,48" />
+  <StrutsActivity path="/background/manager/managerUpdatePassword.jsp" location="724,621" dimension="310,48" />
+  <StrutsActivity path="/background/manager/managerSelect.jsp" location="0,621" dimension="262,48" />
+  <StrutsActivity path="/background/affiche/afficheUpdate.jsp" location="1092,1195" dimension="262,48" />
+  <StrutsActivity path="/background/affiche/afficheSelect.jsp" location="0,1195" dimension="262,48" />
+  <StrutsActivity path="/background/affiche/afficheInsert.jsp" location="730,1195" dimension="262,48" />
+  <StrutsActivity path="/background/affiche/afficheSuccess.jsp" location="1454,1195" dimension="268,48" />
+  <StrutsActivity path="/background/affiche/afficheContent.jsp" location="362,1195" dimension="268,48" />
+  <StrutsActivity path="/background/advert/advertUpdate.jsp" location="50,450" dimension="250,48" />
+  <StrutsActivity path="/background/advert/advertInsert.jsp" location="350,450" dimension="250,48" />
+  <StrutsActivity path="/background/advert/advertSelect.jsp" location="650,450" dimension="250,48" />
+  <StrutsActivity path="/background/advert/advertSuccess.jsp" location="1250,450" dimension="256,48" />
+  <StrutsActivity path="/background/advert/advertContent.jsp" location="1850,450" dimension="256,48" />
+  <StrutsActivity path="/background/link/linkUpload.jsp" location="0,2026" dimension="226,48" />
+  <StrutsActivity path="/background/link/linkSelect.jsp" location="984,2026" dimension="226,48" />
+  <StrutsActivity path="/background/link/linkSuccess.jsp" location="326,2026" dimension="232,48" />
+  <StrutsActivity path="/background/link/linkInsert.jsp" location="658,2026" dimension="226,48" />
+  <StrutsActivity path="/background/bigType/bigTypeUpdate.jsp" location="1092,1749" dimension="262,48" />
+  <StrutsActivity path="/background/bigType/bigTypeSuccess.jsp" location="0,1749" dimension="268,48" />
+  <StrutsActivity path="/background/bigType/bigTypeInsert.jsp" location="730,1749" dimension="262,48" />
+  <StrutsActivity path="/background/bigType/bigTypeSelect.jsp" location="368,1749" dimension="262,48" />
+  <StrutsActivity path="/background/hummodetype/hummodetypeInsert.jsp" location="-165,2745" dimension="310,48" />
+  <StrutsActivity path="/background/hummodetype/hummodetypeSelect.jsp" location="630,2655" dimension="310,48" />
+  <StrutsActivity path="/background/hummodetype/hummodetypeSuccess.jsp" location="345,2775" dimension="316,48" />
+  <StrutsActivity path="/background/hummodetype/hummodetypeUpdate.jsp" location="-270,2625" dimension="310,48" />
+  <StrutsActivity path="/background/operattype/operattypeUpdate.jsp" location="1020,3240" dimension="298,48" />
+  <StrutsActivity path="/background/operattype/operattypeInsert.jsp" location="705,3240" dimension="298,48" />
+  <StrutsActivity path="/background/operattype/operattypeSelect.jsp" location="225,3255" dimension="298,48" />
+  <StrutsActivity path="/background/operattype/operattypeSuccess.jsp" location="-225,3210" dimension="304,48" />
+  <StrutsActivity path="/background/smallType/smallTypeSelect.jsp" location="386,1472" dimension="286,48" />
+  <StrutsActivity path="/background/smallType/smallTypeSuccess.jsp" location="1158,1472" dimension="292,48" />
+  <StrutsActivity path="/background/smallType/smallTypeUpdate.jsp" location="772,1472" dimension="286,48" />
+  <StrutsActivity path="/background/smallType/smallTypeInsert.jsp" location="0,1472" dimension="286,48" />
+  <StrutsActivity path="/managerGoods/selectBigGoods.jsp" location="1026,324" dimension="232,48" />
+  <StrutsActivity path="/background/goods/goodSelect.jsp" location="344,324" dimension="232,48" />
+  <StrutsActivity path="/background/goods/goodsSuccess.jsp" location="3416,324" dimension="244,48" />
+  <StrutsActivity path="/managerGoods/selectNewGoods.jsp" location="1358,324" dimension="232,48" />
+  <StrutsActivity path="/managerGoods/selectFreeGoods.jsp" location="1690,324" dimension="238,48" />
+  <StrutsActivity path="/background/goods/goodsMarkSelect.jsp" location="3760,324" dimension="262,48" />
+  <StrutsActivity path="/background/goods/goodInsert.jsp" location="2704,324" dimension="232,48" />
+  <StrutsActivity path="/background/goods/goodSelectSmall.jsp" location="4448,324" dimension="262,48" />
+  <StrutsActivity path="/background/goods/goodSelectBig.jsp" location="676,324" dimension="250,48" />
+  <StrutsActivity path="/managerGoods/selectSmallGoods.jsp" location="0,324" dimension="244,48" />
+  <StrutsActivity path="/managerGoods/goodSelectOne.jsp" location="2028,324" dimension="226,48" />
+  <StrutsActivity path="/background/goods/goodsUploadPicture.jsp" location="3036,324" dimension="280,48" />
+  <StrutsActivity path="/background/goods/selectContent.jsp" location="2354,324" dimension="250,48" />
+  <StrutsActivity path="/background/goods/freePirce.jsp" location="4122,324" dimension="226,48" />
+  <StrutsActivity path="/background/goods/goodSelectOperat.jsp" location="1550,750" dimension="268,48" />
+  <StrutsActivity path="/background/goods/goodSelectHummode.jsp" location="50,1050" dimension="274,48" />
+  <StrutsActivity path="/background/member/success.jsp" location="284,918" dimension="220,48" />
+  <StrutsActivity path="/member/updateMember.jsp" location="0,918" dimension="184,48" />
+  <StrutsActivity path="/member/checkMemberResult.jsp" location="1600,918" dimension="214,48" />
+  <StrutsActivity path="/background/member/selectMember.jsp" location="604,918" dimension="250,48" />
+  <StrutsActivity path="/member/memberSuccess.jsp" location="954,918" dimension="190,48" />
+  <StrutsActivity path="/background/member/selectContent.jsp" location="1244,918" dimension="256,48" />
+  <StrutsActivity path="/background/order/success.jsp" location="0,2303" dimension="214,48" />
+  <StrutsActivity path="/background/order/selectOrder.jsp" location="664,2303" dimension="238,48" />
+  <StrutsActivity path="/background/order/selectContent.jsp" location="314,2303" dimension="250,48" />
+  <StrutsActivity path="/background/advert/advertUpload.jsp" />
+  <StrutsTransition id="/memberAction.do,checkMember,/member/checkMemberResult.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="968,798" />
+      <AbsolutePoint location="968,828" />
+      <AbsolutePoint location="1707,828" />
+      <AbsolutePoint location="1707,918" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/hummodetypeAction.do,hummodetypeOperation,/background/hummodetype/hummodetypeSuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="360,2574" />
+      <AbsolutePoint location="360,2775" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/managerAction.do,checkResult,/background/checkResult.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1155,501" />
+      <AbsolutePoint location="1155,531" />
+      <AbsolutePoint location="1965,531" />
+      <AbsolutePoint location="1965,621" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/managerAction.do,managerSelect,/background/manager/managerSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="991,501" />
+      <AbsolutePoint location="991,531" />
+      <AbsolutePoint location="131,531" />
+      <AbsolutePoint location="131,621" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/managerAction.do,managerOperation,/background/manager/managerSuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1089,501" />
+      <AbsolutePoint location="1089,591" />
+      <AbsolutePoint location="1268,591" />
+      <AbsolutePoint location="1268,621" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/smallTypeAction.do,smallTypeSelect,/background/smallType/smallTypeSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="657,1372" />
+      <AbsolutePoint location="657,1472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,selectOneMember,/background/member/selectContent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="936,798" />
+      <AbsolutePoint location="936,858" />
+      <AbsolutePoint location="1372,858" />
+      <AbsolutePoint location="1372,918" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/linkAction.do,linkOperation,/background/link/linkSuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="576,1842" />
+      <AbsolutePoint location="576,1812" />
+      <AbsolutePoint location="442,1812" />
+      <AbsolutePoint location="442,2026" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/afficheAction.do,afficheOperation,/background/affiche/afficheSuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="939,1095" />
+      <AbsolutePoint location="939,1130" />
+      <AbsolutePoint location="1588,1130" />
+      <AbsolutePoint location="1588,1195" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/operattypeAction.do,operattypeSelectOne,/background/operattype/operattypeUpdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="676,3042" />
+      <AbsolutePoint location="1169,3042" />
+      <AbsolutePoint location="1169,3240" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectNewHead,/managerGoods/selectNewGoods.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2277,84" />
+      <AbsolutePoint location="2277,234" />
+      <AbsolutePoint location="1474,234" />
+      <AbsolutePoint location="1474,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/hummodetypeAction.do,hummodetypeForward,/background/hummodetype/hummodetypeInsert.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="290,2574" />
+      <AbsolutePoint location="290,2769" />
+      <AbsolutePoint location="145,2769" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/orderAction.do,selectOneOrder,/background/order/selectContent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="439,2203" />
+      <AbsolutePoint location="439,2303" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/hummodetypeAction.do,hummodetypeSelectOne,/background/hummodetype/hummodetypeUpdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="260,2574" />
+      <AbsolutePoint location="260,2640" />
+      <AbsolutePoint location="40,2640" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/afficheAction.do,afficheSelectOne,/background/affiche/afficheUpdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="900,1095" />
+      <AbsolutePoint location="900,1160" />
+      <AbsolutePoint location="1223,1160" />
+      <AbsolutePoint location="1223,1195" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bigTypeAction.do,bigTypeForward,/background/bigType/bigTypeInsert.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="704,1649" />
+      <AbsolutePoint location="704,1714" />
+      <AbsolutePoint location="861,1714" />
+      <AbsolutePoint location="861,1749" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/afficheAction.do,afficheForward,/background/affiche/afficheInsert.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="861,1095" />
+      <AbsolutePoint location="861,1195" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/managerAction.do,managerForwardPassword,/background/manager/managerUpdatePassword.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1057,501" />
+      <AbsolutePoint location="1057,591" />
+      <AbsolutePoint location="879,591" />
+      <AbsolutePoint location="879,621" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/advertAction.do,advertOperation,/background/advert/advertSuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/managerAction.do,managerForwardInsert,/background/manager/managerInsert.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1122,501" />
+      <AbsolutePoint location="1122,561" />
+      <AbsolutePoint location="1633,561" />
+      <AbsolutePoint location="1633,621" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/hummodetypeAction.do,hummodetypeSelect,/background/hummodetype/hummodetypeSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="320,2574" />
+      <AbsolutePoint location="320,2688" />
+      <AbsolutePoint location="630,2688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/managerAction.do,managerSelectContent,/background/manager/managerUpdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1024,501" />
+      <AbsolutePoint location="1024,561" />
+      <AbsolutePoint location="493,561" />
+      <AbsolutePoint location="493,621" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/operattypeAction.do,operattypeSelect,/background/operattype/operattypeSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="508,3084" />
+      <AbsolutePoint location="508,3255" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/smallTypeAction.do,smallTypeForward,/background/smallType/smallTypeInsert.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="618,1330" />
+      <AbsolutePoint location="35,1330" />
+      <AbsolutePoint location="35,1472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/linkAction.do,linkSelect,/background/link/linkSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="606,1842" />
+      <AbsolutePoint location="606,1812" />
+      <AbsolutePoint location="1107,1812" />
+      <AbsolutePoint location="1107,2026" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,selectContent,/background/goods/selectContent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2316,84" />
+      <AbsolutePoint location="2316,294" />
+      <AbsolutePoint location="2479,294" />
+      <AbsolutePoint location="2479,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodsInsertPicture,/background/goods/goodsUploadPicture.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2342,84" />
+      <AbsolutePoint location="2342,234" />
+      <AbsolutePoint location="3176,234" />
+      <AbsolutePoint location="3176,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/advertAction.do,advertContent,/background/advert/advertContent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/afficheAction.do,afficheContent,/background/affiche/afficheContent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="763,1065" />
+      <AbsolutePoint location="405,1065" />
+      <AbsolutePoint location="405,1195" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectFreeHead,/managerGoods/selectFreeGoods.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2290,84" />
+      <AbsolutePoint location="2290,264" />
+      <AbsolutePoint location="1809,264" />
+      <AbsolutePoint location="1809,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,selectMember,/background/member/selectMember.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="873,798" />
+      <AbsolutePoint location="873,888" />
+      <AbsolutePoint location="729,888" />
+      <AbsolutePoint location="729,918" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bigTypeAction.do,bigTypeSelect,/background/bigType/bigTypeSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="655,1649" />
+      <AbsolutePoint location="655,1714" />
+      <AbsolutePoint location="499,1714" />
+      <AbsolutePoint location="499,1749" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/smallTypeAction.do,smallTypeOperation,/background/smallType/smallTypeSuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="826,1330" />
+      <AbsolutePoint location="1185,1330" />
+      <AbsolutePoint location="1185,1472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectSmallHead,/managerGoods/selectSmallGoods.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2224,84" />
+      <AbsolutePoint location="2224,114" />
+      <AbsolutePoint location="122,114" />
+      <AbsolutePoint location="122,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/orderAction.do,operationOrder,/background/order/success.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="377,2203" />
+      <AbsolutePoint location="377,2253" />
+      <AbsolutePoint location="107,2253" />
+      <AbsolutePoint location="107,2303" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/advertAction.do,advertSelect,/background/advert/advertSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectHummode,/background/goods/goodSelectHummode.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2218,42" />
+      <AbsolutePoint location="-120,42" />
+      <AbsolutePoint location="-120,792" />
+      <AbsolutePoint location="199,792" />
+      <AbsolutePoint location="199,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/afficheAction.do,afficheSelect,/background/affiche/afficheSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="791,1095" />
+      <AbsolutePoint location="791,1130" />
+      <AbsolutePoint location="131,1130" />
+      <AbsolutePoint location="131,1195" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,operationMember,/member/memberSuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="904,798" />
+      <AbsolutePoint location="904,888" />
+      <AbsolutePoint location="1049,888" />
+      <AbsolutePoint location="1049,918" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/linkAction.do,linkInsertForwardOne,/background/link/linkUpload.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="517,1854" />
+      <AbsolutePoint location="113,1854" />
+      <AbsolutePoint location="113,2026" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodForward,/background/goods/goodInsert.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2329,84" />
+      <AbsolutePoint location="2329,264" />
+      <AbsolutePoint location="2820,264" />
+      <AbsolutePoint location="2820,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,deleteMember,/background/member/success.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="841,798" />
+      <AbsolutePoint location="841,858" />
+      <AbsolutePoint location="394,858" />
+      <AbsolutePoint location="394,918" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/orderAction.do,selectOrder,/background/order/selectOrder.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="531,2161" />
+      <AbsolutePoint location="783,2161" />
+      <AbsolutePoint location="783,2303" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,selectOneMemberHead,/member/updateMember.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="794,735" />
+      <AbsolutePoint location="35,735" />
+      <AbsolutePoint location="35,918" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/smallTypeAction.do,smallTypeSelectOne,/background/smallType/smallTypeUpdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="748,1372" />
+      <AbsolutePoint location="748,1437" />
+      <AbsolutePoint location="915,1437" />
+      <AbsolutePoint location="915,1472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectBigHead,/managerGoods/selectBigGoods.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2264,84" />
+      <AbsolutePoint location="2264,204" />
+      <AbsolutePoint location="1142,204" />
+      <AbsolutePoint location="1142,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelect,/background/goods/goodSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2237,84" />
+      <AbsolutePoint location="2237,144" />
+      <AbsolutePoint location="460,144" />
+      <AbsolutePoint location="460,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bigTypeAction.do,bigTypeSelectOne,/background/bigType/bigTypeUpdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="753,1649" />
+      <AbsolutePoint location="753,1684" />
+      <AbsolutePoint location="1223,1684" />
+      <AbsolutePoint location="1223,1749" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/linkAction.do,linkForward,/background/link/linkInsert.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="695,1853" />
+      <AbsolutePoint location="771,1853" />
+      <AbsolutePoint location="771,2026" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/advertAction.do,advertSelectOne,/background/advert/advertUpdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/operattypeAction.do,operattypeOperation,/background/operattype/operattypeSuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="480,3012" />
+      <AbsolutePoint location="-73,3012" />
+      <AbsolutePoint location="-73,3210" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/operattypeAction.do,operattypeForward,/background/operattype/operattypeInsert.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="578,3084" />
+      <AbsolutePoint location="578,3264" />
+      <AbsolutePoint location="705,3264" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectOperat,/background/goods/goodSelectOperat.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2402,42" />
+      <AbsolutePoint location="2649,42" />
+      <AbsolutePoint location="2649,684" />
+      <AbsolutePoint location="1684,684" />
+      <AbsolutePoint location="1684,750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bigTypeAction.do,bigTypeOperation,/background/bigType/bigTypeSuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="582,1605" />
+      <AbsolutePoint location="105,1605" />
+      <AbsolutePoint location="105,1749" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/advertAction.do,advertForward,/background/advert/advertInsert.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectBig,/background/goods/goodSelectBig.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2250,84" />
+      <AbsolutePoint location="2250,174" />
+      <AbsolutePoint location="801,174" />
+      <AbsolutePoint location="801,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectOneHead,/managerGoods/goodSelectOne.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2303,84" />
+      <AbsolutePoint location="2303,294" />
+      <AbsolutePoint location="2141,294" />
+      <AbsolutePoint location="2141,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodsOperation,/background/goods/goodsSuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2356,84" />
+      <AbsolutePoint location="2356,204" />
+      <AbsolutePoint location="3538,204" />
+      <AbsolutePoint location="3538,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/advertAction.do,advertInsertForwardOne,/background/advert/advertUpload.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="745,92" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectSmall,/background/goods/goodSelectSmall.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2395,84" />
+      <AbsolutePoint location="2395,114" />
+      <AbsolutePoint location="4579,114" />
+      <AbsolutePoint location="4579,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectMark,/background/goods/goodsMarkSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2369,84" />
+      <AbsolutePoint location="2369,174" />
+      <AbsolutePoint location="3891,174" />
+      <AbsolutePoint location="3891,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,managerFreePirce,/background/goods/freePirce.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2382,84" />
+      <AbsolutePoint location="2382,144" />
+      <AbsolutePoint location="4235,144" />
+      <AbsolutePoint location="4235,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

@@ -1,0 +1,207 @@
+package com.dao;
+
+import com.tool.JDBConnection;
+import com.tool.FinalConstants;
+import java.sql.*;
+import java.util.*;
+import com.domain.MemberForm;
+
+//对会员表的操作
+public class MemberDao {
+  private Connection connection = null; //定义连接的对象
+  private PreparedStatement ps = null; //定义预准备的对象
+  private JDBConnection jdbc = null; //定义数据库连接对象
+  public MemberDao() {
+    jdbc = new JDBConnection();
+    connection = jdbc.connection; //利用构造方法取得数据库连接
+  }
+
+
+//以数据库流水号为条件修改会员的密码
+  public boolean updatePassword(String password, Integer id) {
+    try {
+      ps = connection.prepareStatement(FinalConstants.member_updatePassword);
+      ps.setString(1, password);
+      ps.setInt(2, id.intValue());
+      ps.executeUpdate();
+      ps.close();
+      return true;
+    }
+    catch (SQLException ex) {
+      return false;
+    }
+  }
+
+//找回密码之用
+  public MemberForm selectFind(String name, String result) {
+    MemberForm member = null;
+    try {
+      ps = connection.prepareStatement(FinalConstants.member_selectFind);
+      ps.setString(1, name);
+      ps.setString(2, result);
+      ResultSet rs = ps.executeQuery();
+      while (rs.next()) {
+        member = new MemberForm();
+        member.setId(Integer.valueOf(rs.getString(1)));
+        member.setName(rs.getString(2));
+        member.setPassword(rs.getString(3));
+        member.setReallyName(rs.getString(4));
+        member.setAge(Integer.valueOf(rs.getString(5)));
+        member.setProfession(rs.getString(6));
+        member.setEmail(rs.getString(7));
+        member.setQuestion(rs.getString(8));
+        member.setResult(rs.getString(9));
+      }
+    }
+    catch (SQLException ex) {
+    }
+    return member;
+  }
+
+  //全部查询的操作或以会员名称为条件查询信息
+  public MemberForm selectMemberForm(String name) {
+    MemberForm member = null;
+    try {
+      ps = connection.prepareStatement(FinalConstants.member_selectName);
+      ps.setString(1, name);
+      ResultSet rs = ps.executeQuery();
+      while (rs.next()) {
+        member = new MemberForm();
+        member.setId(Integer.valueOf(rs.getString(1)));
+        member.setName(rs.getString(2));
+        member.setPassword(rs.getString(3));
+        member.setReallyName(rs.getString(4));
+        member.setAge(Integer.valueOf(rs.getString(5)));
+        member.setProfession(rs.getString(6));
+        member.setEmail(rs.getString(7));
+        member.setQuestion(rs.getString(8));
+        member.setResult(rs.getString(9));
+      }
+    }
+    catch (SQLException ex) {
+    }
+    return member;
+  }
+
+//删除操作
+  public boolean deleteMember(Integer id) {
+    try {
+      ps = connection.prepareStatement(FinalConstants.member_delete);
+      ps.setString(1, id.toString());
+      ps.executeUpdate();
+      ps.close();
+      return true;
+    }
+    catch (SQLException ex) {
+      return false;
+    }
+  }
+
+//添加信息
+  public void insertMember(MemberForm form) {
+    try {
+      ps = connection.prepareStatement(FinalConstants.member_insert);
+      ps.setString(1, form.getName());
+      ps.setString(2, form.getPassword());
+      ps.setString(3, form.getReallyName());
+      ps.setString(4, form.getAge().toString());
+      ps.setString(5, form.getProfession());
+      ps.setString(6, form.getEmail());
+      ps.setString(7, form.getQuestion());
+      ps.setString(8, form.getResult());
+      ps.executeUpdate();
+      ps.close();
+    }
+    catch (SQLException ex) {
+	ex.printStackTrace();
+    }
+  }
+
+  //以数据库流水号为条件修改信息
+  public void updateMember(MemberForm form) {
+    try {
+      ps = connection.prepareStatement(FinalConstants.member_update);
+      ps.setString(1, form.getName());
+      ps.setString(2, form.getPassword());
+      ps.setString(3, form.getReallyName());
+      ps.setString(4, form.getAge().toString());
+      ps.setString(5, form.getProfession());
+      ps.setString(6, form.getEmail());
+      ps.setString(7, form.getQuestion());
+      ps.setString(8, form.getResult());
+      ps.setString(9, form.getId().toString());
+      ps.executeUpdate();
+      ps.close();
+    }
+    catch (SQLException ex) {
+    }
+  }
+
+//以会员名称为条件查询密码
+  public String selectPassword(String name) {
+    String password = "";
+    try {
+      ps = connection.prepareStatement(FinalConstants.member_selectName);
+      ps.setString(1, name);
+      ResultSet rs = ps.executeQuery();
+      while (rs.next()) {
+        password = rs.getString("password");
+      }
+    }
+    catch (SQLException ex) {
+    }
+
+    return password;
+  }
+
+//全部查询信息操作
+  public List selectMember() {
+    List list = new ArrayList();
+    MemberForm member = null;
+    try {
+      ps = connection.prepareStatement(FinalConstants.member_select);
+      ResultSet rs = ps.executeQuery();
+      while (rs.next()) {
+        member = new MemberForm();
+        member.setId(Integer.valueOf(rs.getString(1)));
+        member.setName(rs.getString(2));
+        member.setPassword(rs.getString(3));
+        member.setReallyName(rs.getString(4));
+        member.setAge(Integer.valueOf(rs.getString(5)));
+        member.setProfession(rs.getString(6));
+        member.setEmail(rs.getString(7));
+        member.setQuestion(rs.getString(8));
+        member.setResult(rs.getString(9));
+        list.add(member);
+      }
+    }
+    catch (SQLException ex) {
+    }
+    return list;
+  }
+
+//以数据库流水号为条件查询信息
+  public MemberForm selectOneMember(Integer id) {
+    MemberForm member = null;
+    try {
+      ps = connection.prepareStatement(FinalConstants.member_selectOne);
+      ps.setInt(1, id.intValue());
+      ResultSet rs = ps.executeQuery();
+      while (rs.next()) {
+        member = new MemberForm();
+        member.setId(Integer.valueOf(rs.getString(1)));
+        member.setName(rs.getString(2));
+        member.setPassword(rs.getString(3));
+        member.setReallyName(rs.getString(4));
+        member.setAge(Integer.valueOf(rs.getString(5)));
+        member.setProfession(rs.getString(6));
+        member.setEmail(rs.getString(7));
+        member.setQuestion(rs.getString(8));
+        member.setResult(rs.getString(9));
+      }
+    }
+    catch (SQLException ex) {
+    }
+    return member;
+  }
+}

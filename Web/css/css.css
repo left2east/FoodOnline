@@ -1,0 +1,147 @@
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<!--
+
+td {
+	font-size: 10pt;	color: #006666;
+}
+a:hover {
+	color: #FF6600;
+}
+a:link{
+	text-decoration: underline;
+}
+.linkWhite a {
+	font-size: 15pt;	text-decoration: none;	color: #0000ff;
+}
+.linkBlack a {
+	font-size: 10pt;	text-decoration: none;	color: #000000;
+}
+.linkLeixing a{
+	font-size: 10pt;	text-decoration: none;	color: #0000ff;
+}
+.linkRed a{
+	font-size: 11pt;	text-decoration: none;	color: #ff0000;
+}
+.linkBlack2 a{
+	font-size: 13pt;	text-decoration: underline;	color: #000000;
+}
+.linkguanggao a{
+	font-size: 13pt;	text-decoration: underline;	color: #FF2400;
+}
+.linkremai a{
+	font-size: 11pt;	text-decoration: none;	color: #215E21;
+}
+.linkgouwu a{
+	font-size: 14pt;	text-decoration: none;	color: #215E21;
+}
+img{
+	border:0;
+}
+.img1{
+	border:0;
+}
+.blue {
+	font-size: 9pt;	color: #034683;
+}
+.bgcolor {
+	font-size: 9pt;	color: #1980DB;
+}
+.btn_grey {
+	font-family: "宋体";	font-size: 9pt;color: #333333;	
+	background-color: #eeeeee;cursor: hand;padding:0px;height:19px;
+	border-top: 0x solid #FFFFFF;border-right:1px solid #666666;
+	border-bottom: 0px solid #666666;border-left: 1px solid #FFFFFF;
+}
+input{
+	font-family: "宋体";
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #999999;
+
+}
+.word_white{
+ color:#FFFFFF;
+}
+.word_deepgrey{
+ color:#999999;
+}
+.word_orange{
+ color:#FF6600;
+}
+.word_green{
+ color:#FEECEA;
+}
+.noborder{
+border:none;
+}
+.word_gray{
+ color:#dddddd;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image:url(../image/bg.jpg);
+  
+
+}
+.textarea {
+	font-family: "宋体";
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #999999;
+}
+.tableBorder {
+	border: #006666 0px solid;
+}
+.tableBorder_dashed {
+	border: #006666 0px dashed;
+}
+.tableBorder_l {
+	border: #004C86 0px solid;
+	border-bottom-style:none;
+	border-right-style:none;
+	border-top-style:none;
+}
+.tableBorder_r {
+	border: #004C86 0px solid;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-top-style:none;
+}
+.tableBorder_lb {
+	border: #006666 0px solid;
+	border-left-style:none;
+	border-top-style:none;
+}
+.tableBorder_l_dashed {
+	border: #006666 0px dashed;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-top-style:none;
+}
+.tableBorder_T_dashed {
+	border: #006666 0px dashed;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-right-style:none;
+}
+.tableBorder_LTR_dashed {
+	border: #006666 0px dashed;
+	border-bottom-style:none;
+}
+.tableBorder_B_dashed {
+	border: #006666 0px dashed;
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+}
+.hidden_a_line{
+	noline:expression(this.onfocus=this.blur);
+}
+hr{
+border-style:dashed;
+color:#CCCCCC;
+}
+-->
