@@ -33,34 +33,16 @@ GoodsForm form=(GoodsForm)request.getAttribute("form");
            
         <td width="64%" height="20"><div align="center">
           <table width="100%" height="20"  border="0"  cellpadding="0" cellspacing="0">
-            <tr><td height="40" align="center"><%=form.getName()%> <input type="hidden" name="goodsId" value="<%=form.getId()%>" /></td></tr>
+            <tr><td height="40" align="center"><%=form.getGoodName()%> <input type="hidden" name="goodsId" value="<%=form.getId()%>" /></td></tr>
           </table>
           </div></td>
          </tr>
          
-         <tr><td height="20"><div align="center">
-            <table width="100%"  border="0"  cellpadding="0" cellspacing="0">
-              <tr><td width="50%" height="20" align="left">加湿方式：<%=hummode.selectName(form.getHummode())%> </td>
-              <td height="20" align="left">操作方式：<%=operat.selectName(form.getOperat())%></td></tr>
            </table>
            </div>
          </td></tr>
          
-           <tr><td height="20"><div align="center">
-            <table width="100%"  border="0"  cellpadding="0" cellspacing="0">
-              <tr><td width="50%" height="20" align="left">容量：<%=form.getVolume()%> </td>
-              <td height="20" align="left">功率：<%=form.getRatedPower()%></td></tr>
-           </table>
-           </div>
-         </td></tr>
-         
-          <tr><td height="20"><div align="center">
-            <table width="100%"  border="0"  cellpadding="0" cellspacing="0">
-              <tr><td width="50%" height="20" align="left">型号：<%=form.getMadel()%> </td>
-              <td height="20" align="left">颜色：<%=form.getColor()%></td></tr>
-           </table>
-           </div>
-         </td></tr>
+
          
   <tr><td height="20"><div align="center">
       <table width="100%"  border="0"  cellpadding="0" cellspacing="0">

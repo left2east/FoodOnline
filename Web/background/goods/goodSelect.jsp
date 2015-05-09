@@ -105,15 +105,13 @@ MM_reloadPage(true);
   %>
         <tr>
           <td height="25"><div align="center"><%=form.getId()%></div></td>
-          <td class="linkBlack"><div align="center"><a href="<%=form.getPicture()%>" target="_blank"><%=form.getName()%></a></div></td>
+          <td class="linkBlack"><div align="center"><a href="<%=form.getPicture()%>" target="_blank"><%=form.getGoodName()%></a></div></td>
 
-          <td class="linkBlack"><div align="center"><a href="goodsAction.do?action=9&big=<%=form.getBig()%>"><%=big.selectName(form.getBig())%></a></div></td>
+          <td class="linkBlack"><div align="center"><a href="goodsAction.do?action=9&big=<%=form.getBigId()%>"><%=big.selectName(form.getBigId())%></a></div></td>
 
-          <td class="linkBlack"><div align="center"><a href="goodsAction.do?action=8&small=<%=form.getSmall()%>"><%=small.selectName(form.getSmall())%></a></div></td>
+          <td class="linkBlack"><div align="center"><a href="goodsAction.do?action=8&small=<%=form.getSmallId()%>"><%=small.selectName(form.getSmallId())%></a></div></td>
           <td class="linkBlack"><div align="center"><a href="goodsAction.do?action=7&mark=<%=form.getMark()%>"><%if(form.getMark().toString().equals("0")){%>·ñ<%}else{%>ÊÇ<%}%></a></div></td>
           
-          <td class="linkBlack"><div align="center"><a href="goodsAction.do?action=17&hummode=<%=form.getHummode()%>"><%=hummode.selectName(form.getHummode())%></a></div></td>
-          <td class="linkBlack"><div align="center"><a href="goodsAction.do?action=18&operat=<%=form.getOperat()%>"><%=operat.selectName(form.getOperat())%></a></div></td>
           
           <td class="linkBlack"><div align="center"><a href="goodsAction.do?action=5&id=<%=form.getId()%>">ÏêÏ¸ÐÅÏ¢</a>&nbsp;&nbsp;
 		  <a href="javascript:deleteType(<%=form.getId()%>)">É¾³ý</a>

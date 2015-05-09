@@ -36,7 +36,7 @@ return false;
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>加湿器网购系统后台</title>
+<title>餐品网购系统后台</title>
 </head>
  <link href="css/css.css" rel="stylesheet" type="text/css">
 <body>
@@ -56,7 +56,7 @@ return false;
     <div align="center">	
 	       <table width="99%" height="30"  border="0" cellpadding="0" cellspacing="0">
       <tr >
-        <td bgcolor="#E6E6E6" ><div align="center"><font size="4" color="#990000"><b>查看加湿器的详细情况</b></font></div></td>
+        <td bgcolor="#E6E6E6" ><div align="center"><font size="4" color="#990000"><b>查看餐品的详细情况</b></font></div></td>
       </tr>
     </table><br><br>
 	
@@ -64,47 +64,27 @@ return false;
         <table width="90%" height="209"  border="1" cellpadding="0" cellspacing="0">
           <tr>
             <td width="20%" height="26">&nbsp;&nbsp;所属加湿类型</td>
-            <td width="31%">&nbsp;&nbsp;<%=big.selectName(goodsForm.getBig())%></td>
+            <td width="31%">&nbsp;&nbsp;<%=big.selectName(goodsForm.getBigId())%></td>
             <td width="20%">&nbsp;&nbsp;所属品牌</td>
-            <td width="31%">&nbsp;&nbsp;<%=small.selectName(goodsForm.getSmall())%></td>
+            <td width="31%">&nbsp;&nbsp;<%=small.selectName(goodsForm.getSmallId())%></td>
           </tr>
-          
-           <tr>
-            <td width="20%" height="26">&nbsp;&nbsp;加湿方式</td>
-            <td width="31%">&nbsp;&nbsp;<%=hummode.selectName(goodsForm.getHummode())%></td>
-            <td width="20%">&nbsp;&nbsp;操作方式</td>
-            <td width="31%">&nbsp;&nbsp;<%=operat.selectName(goodsForm.getOperat())%></td>
-           </tr>
+
           
           <tr>
-            <td height="26">&nbsp;&nbsp;加湿器名称</td>
-            <td>&nbsp;&nbsp;<%=goodsForm.getName()%></td>
+            <td height="26">&nbsp;&nbsp;餐品名称</td>
+            <td>&nbsp;&nbsp;<%=goodsForm.getGoodName()%></td>
             <td>&nbsp;&nbsp;生产厂家</td>
-            <td>&nbsp;&nbsp;<%=goodsForm.getFrom()%></td>
+            <td>&nbsp;&nbsp;<%=goodsForm.getGoodFrom()%></td>
           </tr>
           
           <tr>
-            <td height="26">&nbsp;&nbsp;加湿器颜色</td>
-            <td>&nbsp;&nbsp;<%=goodsForm.getColor()%></td>
-            <td>&nbsp;&nbsp;加湿器型号</td>
-            <td>&nbsp;&nbsp;<%=goodsForm.getMadel()%></td>
-          </tr>
-          
-          <tr>
-            <td height="26">&nbsp;&nbsp;加湿器容量</td>
-            <td>&nbsp;&nbsp;<%=goodsForm.getVolume()%></td>
-            <td>&nbsp;&nbsp;加湿器功率</td>
-            <td>&nbsp;&nbsp;<%=goodsForm.getRatedPower()%></td>
-          </tr>
-          
-          <tr>
-            <td height="26">&nbsp;&nbsp;加湿器定价</td>
+            <td height="26">&nbsp;&nbsp;餐品定价</td>
             <td>&nbsp;&nbsp;<%=goodsForm.getNowPrice()%>元</td>
             <td>&nbsp;&nbsp;特价</td>
             <td>&nbsp;&nbsp;<%=goodsForm.getFreePrice()%>元</td>
           </tr>
           <tr>
-            <td height="26">&nbsp;&nbsp;加湿器描述</td>
+            <td height="26">&nbsp;&nbsp;餐品描述</td>
             <td colspan="3">&nbsp;&nbsp;<%=goodsForm.getIntroduce()%></td>
           </tr>
           <tr>
@@ -118,15 +98,15 @@ return false;
 			  <%if(mark.equals("0")){%>
 			
 			<%}else{%>
-			<a href="goodsAction.do?action=11&id=<%=goodsForm.getId()%>&mark=0">删除特价加湿器信息</a>
+			<a href="goodsAction.do?action=11&id=<%=goodsForm.getId()%>&mark=0">删除特价餐品信息</a>
 			<%}%>
 			&nbsp;&nbsp;</td>
            
 		    <td class="linkRed" width="22%" align="right">
                         <%if(mark.equals("0")){%>
-              <a href="goodsAction.do?action=10&id=<%=goodsForm.getId()%>">设置特价加湿器</a>
+              <a href="goodsAction.do?action=10&id=<%=goodsForm.getId()%>">设置特价餐品</a>
               <%}else{%>
-              <a href="goodsAction.do?action=10&id=<%=goodsForm.getId()%>">调整特价加湿器</a>
+              <a href="goodsAction.do?action=10&id=<%=goodsForm.getId()%>">调整特价餐品</a>
               <%}%>
 &nbsp;&nbsp;</td>
            <!--  <td width="13%"> <a href="javascript:history.back();">返回</a></td> -->

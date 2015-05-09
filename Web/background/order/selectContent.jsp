@@ -84,7 +84,7 @@
             sum=sum+form.getPrice()*form.getNumber();
           %>
           <tr>
-            <td><div align="center"><%=goods.selectOneGoods(form.getGoodsId()).getName()%></div></td>
+            <td><div align="center"><%=goods.selectOneGoods(form.getGoodsId()).getGoodName()%></div></td>
             <td><div align="center"><%=form.getNumber()%></div></td>
             <td><div align="center"><%=form.getPrice()%>Ԫ</div></td>
           </tr><%}%>
