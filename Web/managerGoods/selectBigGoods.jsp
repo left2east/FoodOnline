@@ -76,7 +76,7 @@ if(count<=0){
 		<table width="96%"  border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#819BBC">
           <tr>
             <td width="60%" rowspan="4" height="120"><input name="pricture<%=i%>" type="image" src="<%=bigForm.getPicture()%>" width="420" height="138"></td>
-            <td width="40%" height="30"><div align="center"><%=bigForm.getName()%></div></td>
+            <td width="40%" height="30"><div align="center"><%=bigForm.getGoodName()%></div></td>
           </tr>
           <tr>
             <td height="30"><div align="center">

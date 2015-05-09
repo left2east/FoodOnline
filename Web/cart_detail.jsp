@@ -102,7 +102,7 @@
          %>
         <tr  align="center" >
           <td height="21"><%=orderDetailForm.getOrderNumber()%></td>
-          <td><%=goodsDao.selectOneGoods(orderDetailForm.getGoodsId()).getName()%></td>
+          <td><%=goodsDao.selectOneGoods(orderDetailForm.getGoodsId()).getGoodName()%></td>
           <td><%=orderDetailForm.getPrice()%>Ԫ</td>
           <td><%=orderDetailForm.getNumber()%></td>
         </tr>

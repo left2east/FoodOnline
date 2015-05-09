@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>加湿器网购</title>
+<title>餐品网购</title>
 <style type="text/css">
 <!--
 .style1 {
@@ -49,7 +49,7 @@
                   <td width="60%" rowspan="4" height="120"><div align="center">
                       <input name="pricture" type="image" src="<%=form.getPicture()%>" width="420" height="136">
                   </div></td>
-                  <td width="40%" height="30"><div align="center"><%=form.getName()%></div></td>
+                  <td width="40%" height="30"><div align="center"><%=form.getGoodName()%></div></td>
                 </tr>
                 <tr>
                   <td height="30"><div align="center"><font color="#F14D83">单价：<%=form.getNowPrice()%>元</font></div></td>

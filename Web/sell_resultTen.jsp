@@ -63,7 +63,7 @@
                   <td width="60%" rowspan="4" height="120"><div align="center">
                       <input name="pricture<%=i%>" type="image" src="<%=form.getPicture()%>" width="420" height="138">
                   </div></td>
-                  <td width="40%" height="30"><div align="center"><%=form.getName()%></div></td>
+                  <td width="40%" height="30"><div align="center"><%=form.getGoodName()%></div></td>
                 </tr>
                 <tr>
                   <td height="30"><div align="center"><font color="#F14D83">µ¥¼Û£º<%=form.getNowPrice()%>Ôª</font></div></td>

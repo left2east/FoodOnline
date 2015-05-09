@@ -66,7 +66,7 @@ if(count<=0){
                        <td width="60%" rowspan="5" height="120"><div align="center">
                            <input name="pricture<%=i%>" type="image" src="<%=freeGoods.getPicture()%>" width="420" height="138">
                        </div></td>
-                       <td width="40%" height="30"><div align="center"><%=freeGoods.getName()%></div></td>
+                       <td width="40%" height="30"><div align="center"><%=freeGoods.getGoodName()%></div></td>
                      </tr>
 					  <tr>
                        <td height="30"><div align="center" style="text-decoration:line-through;color:#910402">Ô­¼Û£º<%=freeGoods.getNowPrice()%>Ôª</div></td>

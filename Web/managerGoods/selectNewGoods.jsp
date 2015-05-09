@@ -59,7 +59,7 @@
                        <td width="60%" rowspan="4" height="120"><div align="center">
                            <input name="pricture<%=i%>" type="image" src="<%=newGoods.getPicture()%>" width="420" height="138">
                        </div></td>
-                       <td width="40%" height="30"><div align="center"><%=newGoods.getName()%></div></td>
+                       <td width="40%" height="30"><div align="center"><%=newGoods.getGoodName()%></div></td>
                      </tr>
                      <tr>
                        <td height="30"><div align="center"><font color="#F14D83">µ¥¼Û£º<%=newGoods.getNowPrice()%>Ôª</font></div></td>

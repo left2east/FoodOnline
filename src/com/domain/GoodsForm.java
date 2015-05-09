@@ -24,7 +24,7 @@ public class GoodsForm extends ActionForm {
 		return bigId;
 	}
 
-	public void setBig(Integer bigId) {
+	public void setBigId(Integer bigId) {
 		this.bigId = bigId;
 	}
 
@@ -40,7 +40,7 @@ public class GoodsForm extends ActionForm {
 		return smallId;
 	}
 
-	public void setSmall(Integer smallId) {
+	public void setSmallId(Integer smallId) {
 		this.smallId = smallId;
 	}
 

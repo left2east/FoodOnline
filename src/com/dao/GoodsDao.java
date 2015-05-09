@@ -54,9 +54,9 @@ public class GoodsDao {
 			while (rs.next()) {
 				goods = new GoodsForm();
 				goods.setId(Integer.valueOf(rs.getString(GoodsTable.COLUMN_ID)));
-				goods.setBig(Integer.valueOf(rs
+				goods.setBigId(Integer.valueOf(rs
 						.getString(GoodsTable.COLUMN_BIG_ID)));
-				goods.setSmall(Integer.valueOf(rs
+				goods.setSmallId(Integer.valueOf(rs
 						.getString(GoodsTable.COLUMN_SMALL_ID)));
 				goods.setGoodName(rs.getString(GoodsTable.COLUMN_GOOD_NAME));
 				goods.setGoodFrom(rs.getString(GoodsTable.COLUMN_GOOD_FROM));
@@ -121,9 +121,9 @@ public class GoodsDao {
 			while (rs.next()) {
 				goods = new GoodsForm();
 				goods.setId(Integer.valueOf(rs.getString(GoodsTable.COLUMN_ID)));
-				goods.setBig(Integer.valueOf(rs
+				goods.setBigId(Integer.valueOf(rs
 						.getString(GoodsTable.COLUMN_BIG_ID)));
-				goods.setSmall(Integer.valueOf(rs
+				goods.setSmallId(Integer.valueOf(rs
 						.getString(GoodsTable.COLUMN_SMALL_ID)));
 				goods.setGoodName(rs.getString(GoodsTable.COLUMN_GOOD_NAME));
 				goods.setGoodFrom(rs.getString(GoodsTable.COLUMN_GOOD_FROM));
@@ -156,9 +156,9 @@ public class GoodsDao {
 			while (rs.next()) {
 				goods = new GoodsForm();
 				goods.setId(Integer.valueOf(rs.getString(GoodsTable.COLUMN_ID)));
-				goods.setBig(Integer.valueOf(rs
+				goods.setBigId(Integer.valueOf(rs
 						.getString(GoodsTable.COLUMN_BIG_ID)));
-				goods.setSmall(Integer.valueOf(rs
+				goods.setSmallId(Integer.valueOf(rs
 						.getString(GoodsTable.COLUMN_SMALL_ID)));
 				goods.setGoodName(rs.getString(GoodsTable.COLUMN_GOOD_NAME));
 				goods.setGoodFrom(rs.getString(GoodsTable.COLUMN_GOOD_FROM));
@@ -191,9 +191,9 @@ public class GoodsDao {
 			while (rs.next()) {
 				goods = new GoodsForm();
 				goods.setId(Integer.valueOf(rs.getString(GoodsTable.COLUMN_ID)));
-				goods.setBig(Integer.valueOf(rs
+				goods.setBigId(Integer.valueOf(rs
 						.getString(GoodsTable.COLUMN_BIG_ID)));
-				goods.setSmall(Integer.valueOf(rs
+				goods.setSmallId(Integer.valueOf(rs
 						.getString(GoodsTable.COLUMN_SMALL_ID)));
 				goods.setGoodName(rs.getString(GoodsTable.COLUMN_GOOD_NAME));
 				goods.setGoodFrom(rs.getString(GoodsTable.COLUMN_GOOD_FROM));
@@ -225,9 +225,9 @@ public class GoodsDao {
 			while (rs.next()) {
 				goods = new GoodsForm();
 				goods.setId(Integer.valueOf(rs.getString(GoodsTable.COLUMN_ID)));
-				goods.setBig(Integer.valueOf(rs
+				goods.setBigId(Integer.valueOf(rs
 						.getString(GoodsTable.COLUMN_BIG_ID)));
-				goods.setSmall(Integer.valueOf(rs
+				goods.setSmallId(Integer.valueOf(rs
 						.getString(GoodsTable.COLUMN_SMALL_ID)));
 				goods.setGoodName(rs.getString(GoodsTable.COLUMN_GOOD_NAME));
 				goods.setGoodFrom(rs.getString(GoodsTable.COLUMN_GOOD_FROM));
@@ -259,9 +259,9 @@ public class GoodsDao {
 			while (rs.next()) {
 				goods = new GoodsForm();
 				goods.setId(Integer.valueOf(rs.getString(GoodsTable.COLUMN_ID)));
-				goods.setBig(Integer.valueOf(rs
+				goods.setBigId(Integer.valueOf(rs
 						.getString(GoodsTable.COLUMN_BIG_ID)));
-				goods.setSmall(Integer.valueOf(rs
+				goods.setSmallId(Integer.valueOf(rs
 						.getString(GoodsTable.COLUMN_SMALL_ID)));
 				goods.setGoodName(rs.getString(GoodsTable.COLUMN_GOOD_NAME));
 				goods.setGoodFrom(rs.getString(GoodsTable.COLUMN_GOOD_FROM));

@@ -63,7 +63,7 @@
         %>
           <tr>
             <td height="28"><div align="center"><%=i+1%></div></td>
-            <td><div align="center"><%=dao.selectOneGoods(new Integer(form.ID)).getName()%></div></td>
+            <td><div align="center"><%=dao.selectOneGoods(new Integer(form.ID)).getGoodName()%></div></td>
             <td><div align="center"><%=form.price%>Ԫ</div></td>
             <td><div align="center"><input name="num<%=i%>" maxlength="5" size="5" type="text"  value="<%=form.number%>" onBlur="check(this.form)"></div></td>
             <td><div align="center"><%=form.number*form.price%>Ԫ</div></td>
