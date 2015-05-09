@@ -12,7 +12,7 @@ public class GoodsForm extends ActionForm {
 	private Integer smallId;
 	private String goodName;
 	private String goodFrom;
-	private String creaTime;
+	private String createTime;
 	private String introduce;
 	private Float nowPrice;
 	private Float freePrice;
@@ -101,11 +101,11 @@ public class GoodsForm extends ActionForm {
 	}
 
 	public String getCreaTime() {
-		return creaTime;
+		return createTime;
 	}
 
-	public void setCreaTime(String creaTime) {
-		this.creaTime = creaTime;
+	public void setCreaTime(String createTime) {
+		this.createTime = createTime;
 	}
 	public String getGoodName() {
 		return goodName;
