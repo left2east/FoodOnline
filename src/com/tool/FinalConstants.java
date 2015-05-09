@@ -2,6 +2,7 @@ package com.tool;
 
 //需要调用的SQL语句
 public final class FinalConstants {
+  public static final String Table_Goods ="tb_goods";
   //后台管理员表的操作
   public static final String manager_select =
       "select * from jd_manager order by id DESC"; //全部管理员查询
@@ -123,36 +124,7 @@ public final class FinalConstants {
 
   //================================================================================
   
- 
-  //对商品表的操作
-  public static final String goods_select =
-      "select * from jd_goods order by id DESC"; //全部查询操作
-  public static final String goods_selectBig =
-      "select * from jd_goods where bigId=? order by id DESC"; //以商品的大类别为编号查询信息
-  public static final String goods_selectSmall =
-      "select * from jd_goods where smallId=? order by id DESC"; //以商品的小类别为条件查询信息
-  public static final String goods_selectMark =
-      "select * from jd_goods where mark=? order by id DESC"; //以商品是否特价为条件查询信息
-  
-  public static final String goods_selectHummode =
-	      "select * from jd_goods where hummodeId=? order by id DESC"; //以加湿方式为编号查询信息
-	  public static final String goods_selectOperat =
-	      "select * from jd_goods where operatId=? order by id DESC"; //以操作方式为条件查询信息
-  
-  
-  public static final String goods_selectOne =
-      "select * from jd_goods where id=? order by id DESC"; //以商品的编号为条件查询信息
-  public static final String goods_insert =
-      "insert into jd_goods (bigId, smallId, goodName, madel, goodFrom, introduce, creaTime, nowPrice, freePrice, number, picture, volume, ratedPower, color, hummodeId, operatId, mark) values (?,?,?,?,?,?,now(),?,?,?,?,?,?,?,?,?,?)"; //添加信息
-  public static final String goods_delete = "delete from jd_goods where id=?"; //删除表中的信息
-  public static final String goods_updatePirce =
-      "update jd_goods set freePrice=?,mark=? where id=?"; //设置特价价格
 
-  public static final String goods_updateNumber =
-      "update jd_goods set number=number+? where id=?";
-  //根据商品的ID修改购买数量
-  public static final String goods_selectNumber =
-      "select * from jd_goods order by number DESC";
 
   //================================================================================
   //对前台会员表的操作
