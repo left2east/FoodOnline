@@ -100,11 +100,11 @@ public class GoodsForm extends ActionForm {
 		this.freePrice = freePrice;
 	}
 
-	public String getCreaTime() {
+	public String getCreateTime() {
 		return createTime;
 	}
 
-	public void setCreaTime(String createTime) {
+	public void setCreateTime(String createTime) {
 		this.createTime = createTime;
 	}
 	public String getGoodName() {
