@@ -74,7 +74,7 @@ MM_reloadPage(true);
           <td height="30"><div align="center"><%=form.getId()%></div></td>
           <td><div align="center"><%=form.getSmallName()%></div></td>
 		  <td><div align="center"><%=big.selectName(form.getBigId())%></div></td>
-          <td><div align="center"><%=form.getCreaTime()%></div></td>
+          <td><div align="center"><%=form.getCreateTime()%></div></td>
           <td><div align="center"><a href="smallTypeAction.do?action=4&id=<%=form.getId()%>" >ÐÞ¸Ä</a>&nbsp;&nbsp;<a href="javascript:deleteType('<%=form.getId()%>')">É¾³ý</a></div></td>
       <%}%>  </tr>
       </table>

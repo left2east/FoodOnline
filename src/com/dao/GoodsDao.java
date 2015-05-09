@@ -61,7 +61,7 @@ public class GoodsDao {
 				goods.setGoodName(rs.getString(GoodsTable.COLUMN_GOOD_NAME));
 				goods.setGoodFrom(rs.getString(GoodsTable.COLUMN_GOOD_FROM));
 				goods.setIntroduce(rs.getString(GoodsTable.COLUMN_INTRODUCE));
-				goods.setCreaTime(rs.getString(GoodsTable.COLUMN_CREATE_TIME));
+				goods.setCreateTime(rs.getString(GoodsTable.COLUMN_CREATE_TIME));
 				goods.setNowPrice(Float.valueOf(rs
 						.getString(GoodsTable.COLUMN_NOW_PRICE)));
 				goods.setFreePrice(Float.valueOf(rs
@@ -128,7 +128,7 @@ public class GoodsDao {
 				goods.setGoodName(rs.getString(GoodsTable.COLUMN_GOOD_NAME));
 				goods.setGoodFrom(rs.getString(GoodsTable.COLUMN_GOOD_FROM));
 				goods.setIntroduce(rs.getString(GoodsTable.COLUMN_INTRODUCE));
-				goods.setCreaTime(rs.getString(GoodsTable.COLUMN_CREATE_TIME));
+				goods.setCreateTime(rs.getString(GoodsTable.COLUMN_CREATE_TIME));
 				goods.setNowPrice(Float.valueOf(rs
 						.getString(GoodsTable.COLUMN_NOW_PRICE)));
 				goods.setFreePrice(Float.valueOf(rs
@@ -163,7 +163,7 @@ public class GoodsDao {
 				goods.setGoodName(rs.getString(GoodsTable.COLUMN_GOOD_NAME));
 				goods.setGoodFrom(rs.getString(GoodsTable.COLUMN_GOOD_FROM));
 				goods.setIntroduce(rs.getString(GoodsTable.COLUMN_INTRODUCE));
-				goods.setCreaTime(rs.getString(GoodsTable.COLUMN_CREATE_TIME));
+				goods.setCreateTime(rs.getString(GoodsTable.COLUMN_CREATE_TIME));
 				goods.setNowPrice(Float.valueOf(rs
 						.getString(GoodsTable.COLUMN_NOW_PRICE)));
 				goods.setFreePrice(Float.valueOf(rs
@@ -198,7 +198,7 @@ public class GoodsDao {
 				goods.setGoodName(rs.getString(GoodsTable.COLUMN_GOOD_NAME));
 				goods.setGoodFrom(rs.getString(GoodsTable.COLUMN_GOOD_FROM));
 				goods.setIntroduce(rs.getString(GoodsTable.COLUMN_INTRODUCE));
-				goods.setCreaTime(rs.getString(GoodsTable.COLUMN_CREATE_TIME));
+				goods.setCreateTime(rs.getString(GoodsTable.COLUMN_CREATE_TIME));
 				goods.setNowPrice(Float.valueOf(rs
 						.getString(GoodsTable.COLUMN_NOW_PRICE)));
 				goods.setFreePrice(Float.valueOf(rs
@@ -232,7 +232,7 @@ public class GoodsDao {
 				goods.setGoodName(rs.getString(GoodsTable.COLUMN_GOOD_NAME));
 				goods.setGoodFrom(rs.getString(GoodsTable.COLUMN_GOOD_FROM));
 				goods.setIntroduce(rs.getString(GoodsTable.COLUMN_INTRODUCE));
-				goods.setCreaTime(rs.getString(GoodsTable.COLUMN_CREATE_TIME));
+				goods.setCreateTime(rs.getString(GoodsTable.COLUMN_CREATE_TIME));
 				goods.setNowPrice(Float.valueOf(rs
 						.getString(GoodsTable.COLUMN_NOW_PRICE)));
 				goods.setFreePrice(Float.valueOf(rs
@@ -266,7 +266,7 @@ public class GoodsDao {
 				goods.setGoodName(rs.getString(GoodsTable.COLUMN_GOOD_NAME));
 				goods.setGoodFrom(rs.getString(GoodsTable.COLUMN_GOOD_FROM));
 				goods.setIntroduce(rs.getString(GoodsTable.COLUMN_INTRODUCE));
-				goods.setCreaTime(rs.getString(GoodsTable.COLUMN_CREATE_TIME));
+				goods.setCreateTime(rs.getString(GoodsTable.COLUMN_CREATE_TIME));
 				goods.setNowPrice(Float.valueOf(rs
 						.getString(GoodsTable.COLUMN_NOW_PRICE)));
 				goods.setFreePrice(Float.valueOf(rs

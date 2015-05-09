@@ -102,11 +102,11 @@ MM_reloadPage(true);
       %>
         <tr class="linkBlack">
           <td height="30"><div align="center"><%=form.getId()%></div></td>
-          <td><div align="center"><a href="<%=form.getPicture()%>" target="_blank"><%=form.getName()%></a></div></td>
+          <td><div align="center"><a href="<%=form.getPicture()%>" target="_blank"><%=form.getGoodName()%></a></div></td>
 
-          <td><div align="center"><%=big.selectName(form.getBig())%></div></td>
+          <td><div align="center"><%=big.selectName(form.getBigId())%></div></td>
 
-          <td><div align="center"><%=small.selectName(form.getSmall())%></div></td>
+          <td><div align="center"><%=small.selectName(form.getSmallId())%></div></td>
           <td><div align="center"><%if(form.getMark().toString().equals("0")){%>∑Ò<%}else{%> «<%}%></div></td>
           <td><div align="center"><a href="goodsAction.do?action=5&id=<%=form.getId()%>">œÍœ∏–≈œ¢</a>
 		 

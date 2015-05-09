@@ -94,7 +94,7 @@ MM_reloadPage(true);
 		  <a href="smallTypeAction.do?action=6&bigId=<%=form.getBigId()%>"><%=big.selectName(form.getBigId())%></a>
 		  <%}else{%><%=big.selectName(form.getBigId())%><%}%>
 		  </div></td>
-          <td><div align="center"><%=form.getCreaTime()%></div></td>                                                                                                                                                                                                   
+          <td><div align="center"><%=form.getCreateTime()%></div></td>                                                                                                                                                                                                   
        
 		 <td>  <%if(request.getParameter("bigId")==null){%>
 		   <div align="center"> <a href="smallTypeAction.do?action=4&id=<%=form.getId()%>" >ÐÞ¸Ä</a>&nbsp;&nbsp;  

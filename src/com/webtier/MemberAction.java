@@ -62,6 +62,7 @@ public class MemberAction
                                         ActionForm form,
                                         HttpServletRequest request,
                                         HttpServletResponse response) {
+
     MemberForm memberForm = (MemberForm) form;
     String name = Chinese.chinese(request.getParameter("name")).trim();
     memberForm.setId(Integer.valueOf(request.getParameter("id")));
