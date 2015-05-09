@@ -145,7 +145,7 @@ public class GoodsDao {
 		return goods;
 	}
 
-	// 以加湿器的品牌为条件查询信息
+	// 以餐品的品牌为条件查询信息
 	public List selectSmall(Integer small) {
 		List list = new ArrayList();
 		GoodsForm goods = null;
@@ -180,7 +180,7 @@ public class GoodsDao {
 		return list;
 	}
 
-	// 以加湿器的类型为条件查询信息
+	// 以餐品的类型为条件查询信息
 	public List selectBig(Integer big) {
 		List list = new ArrayList();
 		GoodsForm goods = null;
@@ -279,6 +279,7 @@ public class GoodsDao {
 				list.add(goods);
 			}
 		} catch (SQLException ex) {
+			ex.printStackTrace();
 		}
 		return list;
 	}

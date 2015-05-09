@@ -72,13 +72,13 @@
              <br>
                 <tr align="center" >
                   <%if(form.getNumber().equals(new Integer(0))){%>
-                  <td width="39%" >没有加湿器排名</td>
+                  <td width="39%" >没有餐品排名</td>
                   <%}else{%>
                  
                   <td width="9%" height="10" class="linkBlack">&nbsp;</td>
                   <td width="44%" class="linkremai">                
                   <li type="square">
-                   <div  align="left"><a href="sell_result.jsp?id=<%=form.getId()%>&account=<%=account+1%>"><%=form.getName()%></a> </div>
+                   <div  align="left"><a href="sell_result.jsp?id=<%=form.getId()%>&account=<%=account+1%>"><%=form.getGoodName()%></a> </div>
                    </li>
                    </td>
                   <%}%>
