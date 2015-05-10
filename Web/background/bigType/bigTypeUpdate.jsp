@@ -42,7 +42,7 @@ return false;
 	
 	<table width="99%" height="30"  border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td bgcolor="#E6E6E6"><div align="center"><font size="4" color="#990000"><b>修改加湿类型信息</b></font></div></td>
+        <td bgcolor="#E6E6E6"><div align="center"><font size="4" color="#990000"><b>修改餐品类型信息</b></font></div></td>
       </tr>
     </table>
 <br><br>
@@ -50,7 +50,7 @@ return false;
 	  <form action="bigTypeAction.do?action=5&id=<%=form.getId()%>" method="post"  name="form" onSubmit="return checkEmpty(form)" >
         <table width="90%" height="60"  border="1" cellpadding="0" cellspacing="0">
           <tr>
-            <td width="25%" height="30"><div align="center">加湿类型</div></td>
+            <td width="25%" height="30"><div align="center">餐品类型</div></td>
             <td width="75%">&nbsp;&nbsp;&nbsp;&nbsp;<input name="name" type="text" size="50" value="<%=form.getBigName()%>"></td>
           </tr>
 

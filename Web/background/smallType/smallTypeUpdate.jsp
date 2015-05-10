@@ -54,7 +54,7 @@ return false;
 	  <form action="smallTypeAction.do?action=5&id=<%=small.getId()%>" method="post"  name="form" onSubmit="return checkEmpty(form)" >
         <table width="90%" height="60"  border="1" cellpadding="0" cellspacing="0">
           <tr>
-            <td width="25%" height="30"><div align="center">请选择加湿类型</div></td>
+            <td width="25%" height="30"><div align="center">请选择餐品类型</div></td>
             <td width="75%">&nbsp;&nbsp;&nbsp;
              			
               <select name="bigId" >

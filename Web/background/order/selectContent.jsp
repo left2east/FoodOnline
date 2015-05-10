@@ -70,10 +70,10 @@
       </tr>
     </table>
 	<br>
-	    <strong>加湿器详细信息</strong>	  <br><br>
+	    <strong>餐品详细信息</strong>	  <br><br>
 	    <table width="74%"  border="1" cellspacing="0" cellpadding="0">
           <tr>
-            <td><div align="center">加湿器名称</div></td>
+            <td><div align="center">餐品名称</div></td>
             <td><div align="center">数量</div></td>
             <td><div align="center">价格</div></td>
           </tr>

@@ -31,7 +31,7 @@ return false;
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>加湿器网上系统后台</title>
+<title>餐品网上系统后台</title>
 </head>
  <link href="css/css.css" rel="stylesheet" type="text/css">
 <body>

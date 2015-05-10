@@ -41,8 +41,8 @@ MM_reloadPage(true);
  <link href="css/css.css" rel="stylesheet" type="text/css">
 <body>
 <div id="Layer1" style="position:absolute; left:324px; top:164px; width:513px; height:23px; z-index:1">
-  <div align="right"><a href="bigTypeAction.do?action=0">加湿类型</a>&nbsp;&nbsp;<a href="smallTypeAction.do?action=0">品牌</a>&nbsp;&nbsp;
-  <a href="hummodetypeAction.do?action=0">加湿方式</a>&nbsp;&nbsp;<a href="operattypeAction.do?action=0">操作方式</a>&nbsp;&nbsp;
+  <div align="right"><a href="bigTypeAction.do?action=0">餐品类型</a>&nbsp;&nbsp;<a href="smallTypeAction.do?action=0">品牌</a>&nbsp;&nbsp;
+  <a href="hummodetypeAction.do?action=0">餐品方式</a>&nbsp;&nbsp;<a href="operattypeAction.do?action=0">操作方式</a>&nbsp;&nbsp;
   <a href="javascript:history.go(-1)">返回</a>&nbsp;&nbsp;</div>
 </div>
 <table width="755" height="100%"  border="1" align="center" cellpadding="0" cellspacing="0">
@@ -63,7 +63,7 @@ MM_reloadPage(true);
         <tr>
           <td width="10%" height="25"><div align="center">数据编号</div></td>
           <td width="18%"><div align="center">品牌名称</div></td>
-		  <td width="20%"><div align="center">所属加湿类型</div></td>
+		  <td width="20%"><div align="center">所属餐品类型</div></td>
           <td width="27%"><div align="center">上架时间</div></td>
           <td width="25%"><div align="center">操作</div></td>
         </tr>

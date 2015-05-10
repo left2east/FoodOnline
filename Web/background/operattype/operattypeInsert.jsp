@@ -40,7 +40,7 @@ return false;
     <div align="center">	
 	<table width="99%" height="30"  border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td bgcolor="#E6E6E6"><div align="center"><font size="4" color="#990000"><b>添加加湿器操作方式</b></font></div></td>
+        <td bgcolor="#E6E6E6"><div align="center"><font size="4" color="#990000"><b>添加餐品操作方式</b></font></div></td>
       </tr>
     </table>
 <br><br>

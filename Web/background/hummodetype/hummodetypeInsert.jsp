@@ -40,7 +40,7 @@ return false;
     <div align="center">	
 	<table width="99%" height="30"  border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td bgcolor="#E6E6E6"><div align="center"><font size="4" color="#990000"><b>添加加湿器加湿方式</b></font></div></td>
+        <td bgcolor="#E6E6E6"><div align="center"><font size="4" color="#990000"><b>添加餐品餐品方式</b></font></div></td>
       </tr>
     </table>
 <br><br>
@@ -51,7 +51,7 @@ return false;
 	  <form action="hummodetypeAction.do?action=2" method="post"  name="form" onSubmit="return checkEmpty(form)" >
         <table width="90%" height="60"  border="1" cellpadding="0" cellspacing="0">
           <tr>
-            <td width="25%" height="30"><div align="center">加湿方式名称</div></td>
+            <td width="25%" height="30"><div align="center">餐品方式名称</div></td>
             <td width="75%">&nbsp;&nbsp;&nbsp;&nbsp;<input name="name" type="text" size="50"></td>
           </tr>
        

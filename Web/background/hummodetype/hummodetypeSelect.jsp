@@ -41,8 +41,8 @@ MM_reloadPage(true);
 
 <!-- 
 <div id="Layer1" style="position:absolute; left:324px; top:164px; width:513px; height:23px; z-index:1" class="linkBlack">
-  <div align="left"><a href="goodsAction.do?action=0" >加湿器信息查询</a>&nbsp;&nbsp;<a href="bigTypeAction.do?action=0">加湿类型查询</a>&nbsp;&nbsp;
-  <a href="smallTypeAction.do?action=0">品牌查询</a>&nbsp;&nbsp;<a href="hummodeypeAction.do?action=0" >加湿方式查询</a>&nbsp;&nbsp;
+  <div align="left"><a href="goodsAction.do?action=0" >餐品信息查询</a>&nbsp;&nbsp;<a href="bigTypeAction.do?action=0">餐品类型查询</a>&nbsp;&nbsp;
+  <a href="smallTypeAction.do?action=0">品牌查询</a>&nbsp;&nbsp;<a href="hummodeypeAction.do?action=0" >餐品方式查询</a>&nbsp;&nbsp;
   <a href="operattypeAction.do?action=0" >操作方式查询</a>&nbsp;&nbsp;<a href="javascript:history.go(-1)">返回</a>&nbsp;&nbsp;</div>
 </div>
  -->
@@ -63,15 +63,15 @@ MM_reloadPage(true);
     <div align="center"><br>
 	<table width="99%" height="30"  border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td bgcolor="#E6E6E6"><div align="center"><font size="4" color="#990000"><b>加湿方式查询</b></font></div></td>
+        <td bgcolor="#E6E6E6"><div align="center"><font size="4" color="#990000"><b>餐品方式查询</b></font></div></td>
       </tr>
     </table>
 <br>
      <table width="60%" height="16"  border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td width="15%" class="linkLeixing"><div align="center"><a href="bigTypeAction.do?action=0">加湿类型查询</a></div></td>
+        <td width="15%" class="linkLeixing"><div align="center"><a href="bigTypeAction.do?action=0">餐品类型查询</a></div></td>
         <td width="15%" class="linkLeixing"><div align="center"><a href="smallTypeAction.do?action=0">品牌查询</a></div></td>
-        <td width="15%" class="linkLeixing"><div align="center"><a href="hummodetypeAction.do?action=0" >加湿方式查询</a></div></td>
+        <td width="15%" class="linkLeixing"><div align="center"><a href="hummodetypeAction.do?action=0" >餐品方式查询</a></div></td>
         <td width="15%" class="linkLeixing"><div align="center"><a href="operattypeAction.do?action=0" >操作方式查询</a></div></td>
         </tr>
     </table>   
@@ -80,7 +80,7 @@ MM_reloadPage(true);
 	  <table width="90%"  border="1" cellspacing="0" cellpadding="0">
         <tr>
           <td width="14%" height="25"><div align="center">数据编号</div></td>
-          <td width="28%"><div align="center">加湿方式</div></td>
+          <td width="28%"><div align="center">餐品方式</div></td>
           <td width="28%"><div align="center">上架时间</div></td>
           <td width="30%"><div align="center">操作</div></td>
         </tr>
@@ -112,7 +112,7 @@ MM_reloadPage(true);
           <%}%>
 
           <td width="20%">
-            <div align="right"><a href="hummodetypeAction.do?action=1">添加加湿方式&nbsp;</a></div></td>
+            <div align="right"><a href="hummodetypeAction.do?action=1">添加餐品方式&nbsp;</a></div></td>
 
         </tr>
       </table>

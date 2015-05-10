@@ -63,7 +63,7 @@ return false;
 
         <table width="90%" height="209"  border="1" cellpadding="0" cellspacing="0">
           <tr>
-            <td width="20%" height="26">&nbsp;&nbsp;所属加湿类型</td>
+            <td width="20%" height="26">&nbsp;&nbsp;所属餐品类型</td>
             <td width="31%">&nbsp;&nbsp;<%=big.selectName(goodsForm.getBigId())%></td>
             <td width="20%">&nbsp;&nbsp;所属品牌</td>
             <td width="31%">&nbsp;&nbsp;<%=small.selectName(goodsForm.getSmallId())%></td>

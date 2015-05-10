@@ -77,7 +77,7 @@ return false;
 }
 
 if(document.form.introduce.value.length > 20){
-window.alert("加湿器描述超过字数限制！");
+window.alert("餐品描述超过字数限制！");
 return false;
 }
 }
@@ -117,14 +117,14 @@ window.location.href="goodsAction.do?action=2&bigId="+big;
 
        <table width="99%" height="30"  border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td bgcolor="#E6E6E6"><div align="center" class="style1"><font size="4"><b>添加加湿器信息</b></font></div></td>
+        <td bgcolor="#E6E6E6"><div align="center" class="style1"><font size="4"><b>添加餐品信息</b></font></div></td>
       </tr>
     </table>
       <br>
 	  <form action="goodsAction.do?action=3" method="post" enctype="multipart/form-data"  name="form" onSubmit="return checkEmpty(form)" >
         <table width="90%"  border="1" cellspacing="0" cellpadding="0">
           <tr>
-            <td width="20%" height="26">&nbsp;&nbsp;所属加湿类型</td>
+            <td width="20%" height="26">&nbsp;&nbsp;所属餐品类型</td>
             <td width="31%">&nbsp;
             <select name="big" onChange="ChangeItem()">
             <option value="">请选择</option>
@@ -148,7 +148,7 @@ window.location.href="goodsAction.do?action=2&bigId="+big;
           
       
           <tr>
-            <td width="20%" height="26">&nbsp;&nbsp;加湿方式</td>
+            <td width="20%" height="26">&nbsp;&nbsp;餐品方式</td>
             <td width="31%">&nbsp;
             <select name="hummode">
             <option value="">请选择</option>
@@ -172,31 +172,31 @@ window.location.href="goodsAction.do?action=2&bigId="+big;
          
           
           <tr>
-            <td height="25">&nbsp;&nbsp;加湿器名称(不超过10字)</td>
+            <td height="25">&nbsp;&nbsp;餐品名称(不超过10字)</td>
             <td>&nbsp;<input name="name"  type="text" size="40"></td>
-            <td height="27">&nbsp;&nbsp;加湿器颜色(10字以内)</td>
+            <td height="27">&nbsp;&nbsp;餐品颜色(10字以内)</td>
             <td>&nbsp;<input name="color" type="text" size="40"></td>
           </tr>
           <tr>
-            <td height="27">&nbsp;&nbsp;加湿器定价(1~10000之间)</td>
+            <td height="27">&nbsp;&nbsp;餐品定价(1~10000之间)</td>
             <td>&nbsp;<input name="nowPirce" type="text" size="40"></td>
             <td>&nbsp;&nbsp;初始化特价</td>
             <td>&nbsp;<input name="freePirce" type="hidden" size="20" value="0">0元</td>
           </tr>
           <tr>           
-            <td>&nbsp;&nbsp;加湿器型号(10字以内)</td>
+            <td>&nbsp;&nbsp;餐品型号(10字以内)</td>
             <td>&nbsp;<input name="madel"  type="text" size="40"></td>
             <td>&nbsp;&nbsp;生产厂商(不超过20字)</td>
             <td>&nbsp;<input name="from"  type="text" size="40"></td> 
           </tr>
           <tr>           
-            <td>&nbsp;&nbsp;加湿器容量(10字以内)</td>
+            <td>&nbsp;&nbsp;餐品容量(10字以内)</td>
             <td>&nbsp;<input name="volume" type="text" size="40"></td>
-            <td>&nbsp;&nbsp;加湿器功率(10字以内)</td>
+            <td>&nbsp;&nbsp;餐品功率(10字以内)</td>
             <td>&nbsp;<input name="ratedPower" type="text" size="40"></td> 
           </tr>
           <tr>
-            <td height="28">&nbsp;&nbsp;加湿器描述(不超过20字)</td>
+            <td height="28">&nbsp;&nbsp;餐品描述(不超过20字)</td>
             <td colspan="3">&nbsp;<input name="introduce" type="text" size="70"></td>
           </tr>
 		  
