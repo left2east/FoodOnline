@@ -21,7 +21,7 @@ session.setAttribute("advertAddress",address);
 %>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>加湿器系统后台</title>
+<title>餐品系统后台</title>
 <style type="text/css">
 <!--
 .style1 {

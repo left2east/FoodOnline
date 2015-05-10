@@ -11,7 +11,7 @@ import java.util.List;
 import com.dao.BigTypeDao;
 import com.tool.Chinese;
 
-//加湿类型信息
+//餐品类型信息
 public class BigTypeAction
     extends Action {
   private int action;
@@ -24,22 +24,22 @@ public class BigTypeAction
     this.action = Integer.parseInt(request.getParameter("action"));
     switch (action) {
       case 0: {
-        return bigTypeSelect(mapping, form, request, response); //全部查询加湿器信息
+        return bigTypeSelect(mapping, form, request, response); //全部查询餐品器信息
       }
       case 1: {
         return bigTypeForward(mapping, form, request, response); //转向页面
       }
       case 2: {
-        return bigTypeInsert(mapping, form, request, response); //添加加湿类型的信息
+        return bigTypeInsert(mapping, form, request, response); //添加餐品类型的信息
       }
       case 3: {
-        return bigTypeDelete(mapping, form, request, response); //删除加湿类型的信息
+        return bigTypeDelete(mapping, form, request, response); //删除餐品类型的信息
       }
       case 4: {
-        return bigTypeSelectOne(mapping, form, request, response); //以数据库流水号为条件查询加湿类型信息
+        return bigTypeSelectOne(mapping, form, request, response); //以数据库流水号为条件查询餐品类型信息
       }
       case 5: {
-        return bigTypeUpdate(mapping, form, request, response); //以数据库流水号为条件修改加湿类型信息
+        return bigTypeUpdate(mapping, form, request, response); //以数据库流水号为条件修改餐品类型信息
       }
 
     }
@@ -48,7 +48,7 @@ public class BigTypeAction
         "Method $execute() not yet implemented.");
   }
 
-  //以数据库流水号为条件修改加湿类型信息
+  //以数据库流水号为条件修改餐品类型信息
   public ActionForward bigTypeUpdate(ActionMapping mapping,
                                      ActionForm form,
                                      HttpServletRequest request,
@@ -57,11 +57,11 @@ public class BigTypeAction
     bigTypeForm.setBigName(Chinese.chinese(request.getParameter("name")));
     bigTypeForm.setId(Integer.valueOf(request.getParameter("id")));
     dao.updateBig(bigTypeForm);
-    request.setAttribute("success", "修改加湿类型信息成功！");
+    request.setAttribute("success", "修改餐品类型信息成功！");
     return mapping.findForward("bigTypeOperation");
   }
 
-//以数据库流水号为条件查询加湿类型信息
+//以数据库流水号为条件查询餐品类型信息
   public ActionForward bigTypeSelectOne(ActionMapping mapping,
                                         ActionForm form,
                                         HttpServletRequest request,
@@ -73,13 +73,13 @@ public class BigTypeAction
     return mapping.findForward("bigTypeSelectOne");
   }
 
-//删除加湿类型信息
+//删除餐品类型信息
   public ActionForward bigTypeDelete(ActionMapping mapping,
                                      ActionForm form,
                                      HttpServletRequest request,
                                      HttpServletResponse response) {
     if (dao.deleteBig(Integer.valueOf(request.getParameter("id")))) {
-      request.setAttribute("success", "删除加湿类型成功！");
+      request.setAttribute("success", "删除餐品类型成功！");
     }
     else {
       request.setAttribute("success", "品牌还存在此类型，请先删除品牌信息！");
@@ -88,13 +88,13 @@ public class BigTypeAction
     return mapping.findForward("bigTypeOperation");
   }
 
-//添加加湿类型的信息
+//添加餐品类型的信息
   public ActionForward bigTypeInsert(ActionMapping mapping,
                                      ActionForm form,
                                      HttpServletRequest request,
                                      HttpServletResponse response) {
     dao.insertBig(Chinese.chinese(request.getParameter("name")));
-    request.setAttribute("success", "添加加湿类型信息成功！");
+    request.setAttribute("success", "添加餐品类型信息成功！");
     return mapping.findForward("bigTypeOperation");
   }
 

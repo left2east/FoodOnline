@@ -4,7 +4,7 @@ import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionMapping;
 import javax.servlet.http.HttpServletRequest;
-//加湿器品牌bean
+//餐品器品牌bean
 public class SmallTypeForm
     extends ActionForm {
   private Integer bigId=Integer.valueOf("-1");//商品大类别表的外键

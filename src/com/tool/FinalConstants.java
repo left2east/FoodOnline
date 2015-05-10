@@ -66,7 +66,7 @@ public final class FinalConstants {
       "select * from jd_link where linkName=?"; //以网站名称为条件为条件查询表中的信息
 
   //================================================================================
-  //对加湿类型表的操作
+  //对餐品类型表的操作
   public static final String big_select =
       "select * from jd_bigtype order by id DESC"; //对全部查询操作
   public static final String big_insert =
@@ -79,34 +79,7 @@ public final class FinalConstants {
       "update jd_bigtype set bigName=? where id=?"; //以数据库流水号为条件修改表中的信息
 
   //================================================================================
-   
-  //对加湿器加湿方式表的操作
-  public static final String hummode_select =
-      "select * from jd_hummodetype order by id DESC"; //对全部查询操作
-  public static final String hummode_insert =
-      "insert into jd_hummodetype(hummodeName,creaTime) values (?,now())"; //添加信息
-  public static final String hummode_delete =
-      "delete from jd_hummodetype where id=?"; //以数据库流水号为条件删除表中的信息
-  public static final String hummode_selectOne =
-      "select * from jd_hummodetype where id=?"; //以数据库流水号为条件查询表中的信息
-  public static final String hummode_update =
-      "update jd_hummodetype set hummodeName=? where id=?"; //以数据库流水号为条件修改表中的信息
 
-  //================================================================================  
-  
-  //对加湿器操作方式表的操作
-  public static final String operat_select =
-      "select * from jd_operattype order by id DESC"; //对全部查询操作
-  public static final String operat_insert =
-      "insert into jd_operattype(operatName,creaTime) values (?,now())"; //添加信息
-  public static final String operat_delete =
-      "delete from jd_operattype where id=?"; //以数据库流水号为条件删除表中的信息
-  public static final String operat_selectOne =
-      "select * from jd_operattype where id=?"; //以数据库流水号为条件查询表中的信息
-  public static final String operat_update =
-      "update jd_operattype set operatName=? where id=?"; //以数据库流水号为条件修改表中的信息
-
-  //================================================================================ 
 
 
   //================================================================================

@@ -13,8 +13,6 @@ import com.dao.SmallTypeDao;
 import com.tool.Chinese;
 import javax.servlet.http.HttpSession;
 import java.io.UnsupportedEncodingException;
-import com.dao.HummodetypeDao;
-import com.dao.OperattypeDao;
 
 //餐品的Action
 public class GoodsAction extends Action {
@@ -60,7 +58,7 @@ public class GoodsAction extends Action {
 			return goodSelectSmall(mapping, form, request, response); // 按品牌餐品信息查询
 		}
 		case 9: {
-			return goodSelectBig(mapping, form, request, response); // 按加湿类型餐品信息查询
+			return goodSelectBig(mapping, form, request, response); // 按餐品类型餐品信息查询
 		}
 		case 10: {
 			return managerFreePirceForward(mapping, form, request, response); // 转向特价餐品页面
@@ -69,7 +67,7 @@ public class GoodsAction extends Action {
 			return managerFreePirce(mapping, form, request, response); // 设置特价价格
 		}
 		case 12: {
-			return goodSelectBigHead(mapping, form, request, response); // 按加湿类型餐品信息查询餐品和餐品品牌的名称
+			return goodSelectBigHead(mapping, form, request, response); // 按餐品类型餐品信息查询餐品和餐品品牌的名称
 		}
 		case 13: {
 			return goodSelectSmallHead(mapping, form, request, response); // 按品牌餐品信息查询餐品和餐品品牌的名称
@@ -161,7 +159,7 @@ public class GoodsAction extends Action {
 		return mapping.findForward("goodSelectSmallHead");
 	}
 
-	// 按加湿类型餐品信息查询餐品和餐品品牌的名称
+	// 按餐品类型餐品信息查询餐品和餐品品牌的名称
 	public ActionForward goodSelectBigHead(ActionMapping mapping,
 			ActionForm form, HttpServletRequest request,
 			HttpServletResponse response) {
@@ -221,7 +219,7 @@ public class GoodsAction extends Action {
 		return mapping.findForward("managerFreePirce");
 	}
 
-	// 按加湿类型餐品信息查询
+	// 按餐品类型餐品信息查询
 	public ActionForward goodSelectBig(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
 		List list = null;

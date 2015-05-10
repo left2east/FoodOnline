@@ -10,6 +10,7 @@
 <table width="80%" height="22"  border="0" align="top" cellpadding="0" cellspacing="0"  bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#819BBC">
                 <tr>
                   <%
+                  request.setCharacterEncoding("GB2312");  
                   String id=request.getParameter("id");
 				  if(id==null){
 				  id="none";

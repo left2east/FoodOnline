@@ -22,27 +22,29 @@ public class Chinese {
 	}
 
 	public static String toChinese(String strvalue) {
-		try {
-			if (strvalue == null) {
-				return "";
-			} else {
-				strvalue = new String(strvalue.getBytes(WEB_PAGE_CHAR_SET),
-						DB_CHAR_SET);
-				return strvalue;
-			}
-		} catch (Exception e) {
-			return "";
-		}
+		return strvalue;
+//		try {
+//			if (strvalue == null) {
+//				return "";
+//			} else {
+//				strvalue = new String(strvalue.getBytes(WEB_PAGE_CHAR_SET),
+//						DB_CHAR_SET);
+//				return strvalue;
+//			}
+//		} catch (Exception e) {
+//			return "";
+//		}
 	}
 
 	public static String chinese(String a) {
-		try {
-			byte[] b = a.getBytes(WEB_PAGE_CHAR_SET);
-			String c = new String(b,DB_CHAR_SET);
-			return new String(a.getBytes(WEB_PAGE_CHAR_SET), DB_CHAR_SET);
-		} catch (UnsupportedEncodingException ex) {
-			ex.printStackTrace();
-			return null;
-		}
+		return a;
+//		try {
+//			byte[] b = a.getBytes(WEB_PAGE_CHAR_SET);
+//			String c = new String(b,DB_CHAR_SET);
+//			return new String(a.getBytes(WEB_PAGE_CHAR_SET), DB_CHAR_SET);
+//		} catch (UnsupportedEncodingException ex) {
+//			ex.printStackTrace();
+//			return null;
+//		}
 	}
 }

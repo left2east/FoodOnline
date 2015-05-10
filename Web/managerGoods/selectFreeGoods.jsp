@@ -18,7 +18,7 @@ if(count<=0){
   }
 %>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>特价加湿器</title>
+<title>特价餐品</title>
 </head>
  <link href="css/css.css" rel="stylesheet" type="text/css">
 <body>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <jsp:useBean id="su" scope="page" class="com.jspsmart.upload.SmartUpload"/>
 
-<title>加湿器网购系统后台</title>
+<title>餐品网购系统后台</title>
 </head>
  <link href="css/css.css" rel="stylesheet" type="text/css">
 <body>

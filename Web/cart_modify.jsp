@@ -4,6 +4,7 @@
 <%
 Vector cart=(Vector)session.getAttribute("cart");
 Vector newcart=new Vector();
+request.setCharacterEncoding("GB2312");  
 for(int i=0;i<cart.size();i++){
 	String number=request.getParameter("num"+i);
 	SellGoodsForm mygoodselement=(SellGoodsForm)cart.elementAt(i);

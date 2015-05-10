@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>加湿器购买</title>
+<title>餐品购买</title>
 
 </head>
  <link href="css/css.css" rel="stylesheet" type="text/css">
@@ -48,7 +48,7 @@
 		  <table width="96%"  border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF" bordercolordark="#819BBC" bordercolorlight="#FFFFFF">
           <tr>
             <td width="16%" height="28"><div align="center">序号</div></td>
-            <td width="23%"><div align="center">加湿器名称</div></td>
+            <td width="23%"><div align="center">餐品名称</div></td>
             <td width="22%"><div align="center">价格</div></td>
             <td width="22%"><div align="center">数量</div></td>
             <td width="17%"><div align="center">总金额</div></td>

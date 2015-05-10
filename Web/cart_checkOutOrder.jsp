@@ -12,6 +12,7 @@
 OrderForm order=new OrderForm();
 OrderDetailForm orderDetail=new OrderDetailForm();
 SellGoodsForm sellGoodsForm=new SellGoodsForm();
+request.setCharacterEncoding("GB2312");   
 String number=request.getParameter("number").trim();
 //先添加订单表
 order.setNumber(number);
@@ -25,7 +26,7 @@ order.setBz(Chinese.chinese(request.getParameter("bz")));
 order.setSign("0");
 orderDao.insertOrderDetail(order);
 
-//然后添加加湿器的明仔细表
+//然后添加餐品的明仔细表
 Vector cart=(Vector)session.getAttribute("cart");
 for(int i=0;i<cart.size();i++){
   SellGoodsForm form=(SellGoodsForm)cart.elementAt(i);

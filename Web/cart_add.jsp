@@ -2,6 +2,7 @@
 <%@ page import="java.util.*"%>
 <%@ page import="com.domain.SellGoodsForm"%>
 <%
+request.setCharacterEncoding("GB2312");  
 int goodsID=Integer.parseInt(request.getParameter("goodsId"));
 float goodsPrice=Float.parseFloat(request.getParameter("price"));
 SellGoodsForm sellGoodsForm=new SellGoodsForm();
@@ -27,5 +28,5 @@ if(flag)
 cart.add(sellGoodsForm);
 session.setAttribute("cart",cart);
 
-out.println("<script language='javascript'>alert('购买加湿器成功!');window.close();</script>");
+out.println("<script language='javascript'>alert('购买餐品成功!');window.close();</script>");
 %>

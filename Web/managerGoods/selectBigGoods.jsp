@@ -20,7 +20,7 @@ if(count<=0){
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>加湿器网购购书</title>
+<title>餐品网购购书</title>
 
 </head>
  <link href="css/css.css" rel="stylesheet" type="text/css">
@@ -48,7 +48,7 @@ if(count<=0){
       </tr>
       <tr>
         <td height="25" align="center" valign="middle">
-<%if(smallList.size()==0){%>没有加湿器品牌<%}else{%>
+<%if(smallList.size()==0){%>没有餐品品牌<%}else{%>
     <table width="99%" height="21"  border="1"  bgcolor="#DAD9D9" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#819BBC">
           <tr align="center">
         <%for(int small=0;small<smallList.size();small++){
@@ -64,7 +64,7 @@ if(count<=0){
       </tr>
       <tr>
         <td height="588" align="center" valign="top">
-<%if(bigList.size()==0){%><br><br><br><br>没有加湿器的信息<br><br><br><br><%}else{%>
+<%if(bigList.size()==0){%><br><br><br><br>没有餐品的信息<br><br><br><br><%}else{%>
            <%
           
 

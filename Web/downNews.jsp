@@ -18,6 +18,7 @@
             <tr><td><div align="center">Æ·ÅÆ¹ÙÍø</div></td></tr>
   
               <tr><td><table align="center"><tr><td><%
+            		  request.setCharacterEncoding("GB2312");  
                   String id=request.getParameter("id");
 				  if(id==null){
 				  id="none";

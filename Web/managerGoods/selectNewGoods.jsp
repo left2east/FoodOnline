@@ -8,7 +8,7 @@
 <head>
 <%List newList =(List)request.getAttribute("list");%>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>显示新加湿器上架</title>
+<title>显示新餐品上架</title>
 </head>
  <link href="css/css.css" rel="stylesheet" type="text/css">
 <body>

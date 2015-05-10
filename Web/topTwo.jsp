@@ -13,7 +13,7 @@
         
         <td width="117" class="linkWhite"><a href="goodsAction.do?action=14&mark=0">上新</a></td>
         
-        <td width="117" class="linkWhite"><a href="goodsAction.do?action=15&mark=1" >特价加湿器</a></td>
+        <td width="117" class="linkWhite"><a href="goodsAction.do?action=15&mark=1" >特价餐品</a></td>
         
         <td width="117" class="linkWhite"><a href="connection.jsp" >查看订单</a></td>
         
@@ -35,7 +35,7 @@
         
         <td width="117" class="linkWhite"><a href="goodsAction.do?action=14&mark=0">上新</a></td>
         
-        <td width="117" class="linkWhite"><a href="goodsAction.do?action=15&mark=1" >特价加湿器</a></td>
+        <td width="117" class="linkWhite"><a href="goodsAction.do?action=15&mark=1" >特价餐品</a></td>
         
         <td width="117" class="linkWhite"><a href="cart_detail.jsp" >查看订单</a></td>
         

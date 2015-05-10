@@ -25,7 +25,7 @@ if(count<=0){
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>加湿器网购系统后台</title>
+<title>网上订餐系统后台</title>
 <script language="JavaScript" type="text/JavaScript">
 <!--
 function MM_reloadPage(init) {  //reloads the window if Nav4 resized

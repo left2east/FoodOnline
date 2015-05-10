@@ -8,7 +8,7 @@ import java.util.*;
 
 import com.domain.BigTypeForm;
 
-//对加湿类型信息的操作
+//对餐品类型信息的操作
 public class BigTypeDao {
   private Connection connection = null; //定义连接的对象
   private PreparedStatement ps = null; //定义预准备的对象
@@ -18,7 +18,7 @@ public class BigTypeDao {
     connection = jdbc.connection; //利用构造方法取得数据库连接
   }
 
-//以数据库流水号为条件查询加湿类型的名称
+//以数据库流水号为条件查询餐品类型的名称
   public String selectName(Integer id) {
     String name = null;
     try {

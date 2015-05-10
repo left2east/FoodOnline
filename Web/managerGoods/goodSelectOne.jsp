@@ -22,7 +22,7 @@ GoodsForm form=(GoodsForm)request.getAttribute("form");
  <td height="75"  background="image/tanchuye.jpg" ><table width="85%" height="113"  border="0" align="center" cellpadding="0" cellspacing="0" >
       <tr><td height="300" valign="middle">
         <form name="form" method="post" action="cart_add.jsp">
-            <div align="center"><strong>加湿器详细信息</strong></div>
+            <div align="center"><strong>餐品详细信息</strong></div>
                <br>         
           <table width="95%" height="280"  border="1" align="center" cellpadding="0" 
           cellspacing="0" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#819BBC" >

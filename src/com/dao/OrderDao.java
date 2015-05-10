@@ -165,6 +165,7 @@ public class OrderDao {
       ps.close();
     }
     catch (SQLException ex) {
+    	ex.printStackTrace();
     }
   }
 }

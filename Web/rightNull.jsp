@@ -9,7 +9,7 @@
 <table width="96%" height="566"  border="1" align="center" cellpadding="0" cellspacing="0" 
        bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#819BBC">
           <tr>
-            <td height="35" align="center" valign="middle"><div align="left">&nbsp;&nbsp;加湿器上新</div></td>
+            <td height="35" align="center" valign="middle"><div align="left">&nbsp;&nbsp;餐品上新</div></td>
           </tr>
           <tr>
             <td height="529">

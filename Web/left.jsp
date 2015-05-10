@@ -180,7 +180,7 @@ function quit() {
              
                 <tr align="center" >
                   <%if(form.getNumber().equals(new Integer(0))){%>
-                  <td width="39%" >没有加湿器排名</td>
+                  <td width="39%" >没有餐品排名</td>
                   <%}else{%>
                  
                   <td width="12%" class="linkBlack">&nbsp;</td>

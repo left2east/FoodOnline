@@ -13,7 +13,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>加湿器网购</title>
+<title>餐品网购</title>
 </head>
  <link href="css/css.css" rel="stylesheet" type="text/css">
 <body>
@@ -89,9 +89,9 @@
 
         <tr align="center">
           <td width="25%" height="21">编号</td>
-          <td width="24%">加湿器名称</td>
-          <td width="28%">加湿器价格</td>
-          <td width="23%">加湿器数量</td>
+          <td width="24%">餐品名称</td>
+          <td width="28%">餐品价格</td>
+          <td width="23%">餐品数量</td>
         </tr>  <%
         float sum=0;
             List orderDetailList=orderDetail.selectOrderDetailNumber(request.getParameter("number"));

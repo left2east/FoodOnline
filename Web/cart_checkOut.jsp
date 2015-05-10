@@ -35,7 +35,7 @@ return false;
 </script>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>加湿器网购</title>
+<title>网上订餐</title>
 
 <style type="text/css">
 <!--
@@ -100,13 +100,7 @@ return false;
             </tr>
             <tr>
               <td height="30"><div align="center">付款方式</div></td>
-              
-         <!--       <td>
-              <input type="radio" value="银行付款">银行付款&nbsp;
-              <input type="radio" value="邮政付款">邮政付款&nbsp;
-              <input type="radio" value="现金支付">现金支付&nbsp;             
-              </td>  
-              -->           
+   
             <td>&nbsp;
 			  <select name="setMoney" class="textarea">
 			        <option value="">请选择</option>
