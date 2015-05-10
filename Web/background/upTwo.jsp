@@ -4,7 +4,7 @@
 <%java.util.Date date=new java.util.Date();%>
 <%ManagerForm manager=(ManagerForm)session.getAttribute("manager");%>
 <%if(manager==null||manager.equals("")){%> 
-<meta http-equiv="refresh" content="0;URL=background\connectionFail.jsp">
+<meta http-equiv="refresh" content="0;URL=background/connectionFail.jsp">
     
 	  <%}else{%>
 	  <table width="100%" height="15"  border="0" cellpadding="0" cellspacing="0">

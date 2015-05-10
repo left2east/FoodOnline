@@ -123,7 +123,7 @@ window.location.href="goodsAction.do?action=2&bigId="+big;
                                                     <%}%>
             </select></td>
             
-            <td width="20%">&nbsp;&nbsp;所属品牌</td>
+            <td width="20%">&nbsp;&nbsp;所属小类</td>
             <td width="31%">&nbsp;
             <select name="small">
             <option value="">请选择</option>
@@ -137,8 +137,8 @@ window.location.href="goodsAction.do?action=2&bigId="+big;
           <tr>
             <td height="25">&nbsp;&nbsp;餐品名称(不超过10字)</td>
             <td>&nbsp;<input name="name"  type="text" size="40"></td>
-            <td height="27">&nbsp;&nbsp;餐品颜色(10字以内)</td>
-            <td>&nbsp;<input name="color" type="text" size="40"></td>
+                        <td>&nbsp;&nbsp;所属地区(不超过20字)</td>
+            <td>&nbsp;<input name="from"  type="text" size="40"></td> 
           </tr>
           <tr>
             <td height="27">&nbsp;&nbsp;餐品定价(1~10000之间)</td>
@@ -146,18 +146,7 @@ window.location.href="goodsAction.do?action=2&bigId="+big;
             <td>&nbsp;&nbsp;初始化特价</td>
             <td>&nbsp;<input name="freePirce" type="hidden" size="20" value="0">0元</td>
           </tr>
-          <tr>           
-            <td>&nbsp;&nbsp;餐品型号(10字以内)</td>
-            <td>&nbsp;<input name="madel"  type="text" size="40"></td>
-            <td>&nbsp;&nbsp;生产厂商(不超过20字)</td>
-            <td>&nbsp;<input name="from"  type="text" size="40"></td> 
-          </tr>
-          <tr>           
-            <td>&nbsp;&nbsp;餐品容量(10字以内)</td>
-            <td>&nbsp;<input name="volume" type="text" size="40"></td>
-            <td>&nbsp;&nbsp;餐品功率(10字以内)</td>
-            <td>&nbsp;<input name="ratedPower" type="text" size="40"></td> 
-          </tr>
+
           <tr>
             <td height="28">&nbsp;&nbsp;餐品描述(不超过20字)</td>
             <td colspan="3">&nbsp;<input name="introduce" type="text" size="70"></td>

@@ -63,7 +63,7 @@ return false;
           <tr>
             <td width="20%" height="26">&nbsp;&nbsp;所属餐品类型</td>
             <td width="31%">&nbsp;&nbsp;<%=big.selectName(goodsForm.getBigId())%></td>
-            <td width="20%">&nbsp;&nbsp;所属品牌</td>
+            <td width="20%">&nbsp;&nbsp;所属小类</td>
             <td width="31%">&nbsp;&nbsp;<%=small.selectName(goodsForm.getSmallId())%></td>
           </tr>
 

@@ -14,9 +14,9 @@
          int count=0;
 	     up.initialize(pageContext);
          up.setMaxFileSize(1000000);
-         up.setAllowedFilesList("gif,jpg");
+         up.setAllowedFilesList("gif,jpg,png");
          try{up.upload();
-         }catch(Exception e){}
+         }catch(Exception e){e.printStackTrace();}
          String name=String.valueOf(date.getTime());
 
          File f=up.getFiles().getFile(0);
