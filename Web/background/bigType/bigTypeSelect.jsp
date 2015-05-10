@@ -40,13 +40,7 @@ MM_reloadPage(true);
 
 <body>
 
-<!-- 
-<div id="Layer1" style="position:absolute; left:324px; top:164px; width:513px; height:23px; z-index:1" class="linkBlack">
-  <div align="left"></a>&nbsp;&nbsp;<a href="bigTypeAction.do?action=0">餐品类型查询</a>&nbsp;&nbsp;
-  <a href="smallTypeAction.do?action=0">品牌查询</a>&nbsp;&nbsp;<a href="hummodetypeAction.do?action=0" >餐品方式查询</a>&nbsp;&nbsp;
-  <a href="operattypeAction.do?action=0" >操作方式查询</a>&nbsp;&nbsp;<a href="javascript:history.go(-1)">返回</a>&nbsp;&nbsp;</div>
-</div>
- -->
+
 
 <table width="1000" height="100%"  border="0" align="center" cellpadding="0" cellspacing="0">
 
@@ -72,8 +66,6 @@ MM_reloadPage(true);
       <tr>
         <td width="15%" class="linkLeixing"><div align="center"><a href="bigTypeAction.do?action=0">餐品类型查询</a></div></td>
         <td width="15%" class="linkLeixing"><div align="center"><a href="smallTypeAction.do?action=0">品牌查询</a></div></td>
-        <td width="15%" class="linkLeixing"><div align="center"><a href="hummodetypeAction.do?action=0" >餐品方式查询</a></div></td>
-        <td width="15%" class="linkLeixing"><div align="center"><a href="operattypeAction.do?action=0" >操作方式查询</a></div></td>
        
       </tr>
     </table>    

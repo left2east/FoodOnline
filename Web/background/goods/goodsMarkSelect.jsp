@@ -43,17 +43,6 @@ MM_reloadPage(true);
  <link href="css/css.css" rel="stylesheet" type="text/css">
 <body>
 
-<!-- 
-<div id="Layer1" style="position:absolute; left:400px; top:164px; width:700px; height:23px; z-index:1" class="linkBlack">
-  <div align="left"><a href="goodsAction.do?action=0" >餐品信息查询</a>&nbsp;&nbsp;<a href="bigTypeAction.do?action=0">餐品类型查询</a>&nbsp;&nbsp;
-  <a href="smallTypeAction.do?action=0">品牌查询</a>&nbsp;&nbsp;<a href="hummodetypeAction.do?action=0" >餐品方式查询</a>&nbsp;&nbsp;
-  <a href="operattypeAction.do?action=0" >操作方式查询</a>&nbsp;&nbsp;<a href="javascript:history.go(-1)">返回</a>&nbsp;&nbsp;</div>
-</div>
- -->
-
-
-
-
 <table width="1000" height="100%"  border="0" align="center" cellpadding="0" cellspacing="0">
   <tr valign="bottom">
     <td height="108" colspan="2" background="image/banner1.jpg"> <div align="center"><jsp:include page="../upOne.jsp"/> </div>      <div align="center">
@@ -79,8 +68,6 @@ MM_reloadPage(true);
         <td width="25%" class="linkLeixing"><div align="center"><a href="bigTypeAction.do?action=0">餐品类型查询</a></div></td>
         <td width="25%" class="linkLeixing"><div align="center"><a href="smallTypeAction.do?action=0">品牌查询</a></div></td>
        <!--  <td class="linkBlack2"><div align="center"><a href="goodsAction.do?action=0" >餐品信息查询</a></div></td> -->
-        <td width="25%" class="linkLeixing"><div align="center"><a href="hummodetypeAction.do?action=0" >餐品方式查询</a></div></td>
-        <td width="25%" class="linkLeixing"><div align="center"><a href="operattypeAction.do?action=0" >操作方式查询</a></div></td>
         <!-- <td width="8%" class="linkRed"><div align="right"><a href="javascript:history.go(-1)">返回</a></div></td> -->
       </tr>
     </table>    
@@ -93,8 +80,6 @@ MM_reloadPage(true);
           <td width="12%"><div align="center">餐品类型</div></td>
           <td width="12%"><div align="center">品牌</div></td>
           <td width="12%"><div align="center">是否特价</div></td>
-          <td width="12%"><div align="center">餐品方式</div></td>
-          <td width="12%"><div align="center">操作方式</div></td>
           <td width="12%"><div align="center">操作</div></td>
         </tr>
 		     <%for(int i=start;i<over;i++){

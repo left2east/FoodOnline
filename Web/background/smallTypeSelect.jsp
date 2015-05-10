@@ -42,7 +42,6 @@ MM_reloadPage(true);
 <body>
 <div id="Layer1" style="position:absolute; left:324px; top:164px; width:513px; height:23px; z-index:1">
   <div align="right"><a href="bigTypeAction.do?action=0">餐品类型</a>&nbsp;&nbsp;<a href="smallTypeAction.do?action=0">品牌</a>&nbsp;&nbsp;
-  <a href="hummodetypeAction.do?action=0">餐品方式</a>&nbsp;&nbsp;<a href="operattypeAction.do?action=0">操作方式</a>&nbsp;&nbsp;
   <a href="javascript:history.go(-1)">返回</a>&nbsp;&nbsp;</div>
 </div>
 <table width="755" height="100%"  border="1" align="center" cellpadding="0" cellspacing="0">
