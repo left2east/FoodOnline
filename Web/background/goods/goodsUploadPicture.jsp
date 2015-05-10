@@ -5,14 +5,10 @@
 <%@page import="com.domain.SmallTypeForm"%>
 <%@page import="com.domain.GoodsForm"%>
 
-<%@page import="com.domain.HummodetypeForm"%>
-<%@page import="com.domain.OperattypeForm"%>
 
 <jsp:useBean id="big" scope="page" class="com.dao.BigTypeDao"/>
 <jsp:useBean id="small" scope="page" class="com.dao.SmallTypeDao"/>
  
-<jsp:useBean id="hummode" scope="page" class="com.dao.HummodetypeDao"/>
-<jsp:useBean id="operat" scope="page" class="com.dao.OperattypeDao"/>
 
 
 <%

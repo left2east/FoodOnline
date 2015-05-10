@@ -2,8 +2,6 @@
 <%@page import="java.sql.*"%>
 <%@page import="java.util.*"%>
 <%@page import="com.domain.GoodsForm"%>
-<jsp:useBean id="hummode" scope="page" class="com.dao.HummodetypeDao"/>
-<jsp:useBean id="operat" scope="page" class="com.dao.OperattypeDao"/>
 
 <%
 GoodsForm form=(GoodsForm)request.getAttribute("form");

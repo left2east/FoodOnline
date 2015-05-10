@@ -4,25 +4,13 @@
 <%@page import="com.domain.BigTypeForm"%>
 <%@page import="com.domain.SmallTypeForm"%>
 
-<%@page import="com.domain.HummodetypeForm"%>
-<%@page import="com.domain.OperattypeForm"%>
+
 
 <jsp:useBean id="big" scope="page" class="com.dao.BigTypeDao"/>
 <jsp:useBean id="small" scope="page" class="com.dao.SmallTypeDao"/>
 
  
-<jsp:useBean id="hummode" scope="page" class="com.dao.HummodetypeDao"/>
-<jsp:useBean id="operat" scope="page" class="com.dao.OperattypeDao"/>
 
-<%
-List hummodeList=hummode.selectHummode();
-String id0=(String)request.getAttribute("hummodeId");
-if(id0==null){id0="1";}
-
-List operatList=operat.selectOperat();
-String id1=(String)request.getAttribute("operatId");
-if(id1==null){id1="1";}
-%> 
  
 <%
 List bigList=big.selectBig();
@@ -145,31 +133,6 @@ window.location.href="goodsAction.do?action=2&bigId="+big;
                                                      <%}%>
             </select></td>
           </tr>
-          
-      
-          <tr>
-            <td width="20%" height="26">&nbsp;&nbsp;餐品方式</td>
-            <td width="31%">&nbsp;
-            <select name="hummode">
-            <option value="">请选择</option>
-                   <%for(int i=0;i<hummodeList.size();i++){
-                   HummodetypeForm hummodeForm=(HummodetypeForm)hummodeList.get(i);%>
-            <option value="<%=hummodeForm.getId()%>"><%=hummodeForm.getHummodeName()%></option>
-                                                     <%}%>
-            </select></td>
-            
-            <td width="20%">&nbsp;&nbsp;操作方式</td>
-            <td width="31%">&nbsp;
-            <select name="operat">
-            <option value="">请选择</option>
-                    <%for(int i=0;i<operatList.size();i++){
-                    OperattypeForm operatForm=(OperattypeForm)operatList.get(i);%>
-            <option value="<%=operatForm.getId()%>"><%=operatForm.getOperatName()%></option>
-                                                        <%}%>
-            </select></td>
-          </tr>
-     
-         
           
           <tr>
             <td height="25">&nbsp;&nbsp;餐品名称(不超过10字)</td>
